@@ -1,5 +1,5 @@
 ---
-title:  "Diffrential Privacy Part-III: Composition"
+title:  "Differential Privacy Part-III: Composition"
 layout: posts
 ---
 
