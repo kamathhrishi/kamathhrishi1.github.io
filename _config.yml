@@ -117,10 +117,10 @@ author:
       url: mailto:kamathhrishi@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "hrishikamath.com"
+      url: "www.hrishikamath.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "www.twitter.com/kamathhrishi"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
