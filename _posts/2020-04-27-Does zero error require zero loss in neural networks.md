@@ -1,0 +1,77 @@
+---
+title:  "Differential Privacy Part-I: Introduction"
+layout: posts
+mathjax: "true"
+---
+
+<p style="text-align:justify">Personal data is a personal valuable asset , it could be used for economic , social or even malicious benifits. Most internet companies survive on personal data of users in exchange of services. Usually this leads to distributing data to third party services such as advertisers which on a personal level could be a privacy violation. Data is ensured to be distributed with anonymization where identifying attributes are removed. But , this still does not ensure data is anonymous. The increasing available data online gives surface to linkage attacks which involves reidentifying a user from the dataset with common attributes across datasets. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>. Usually third party services such as advertisers don't need personal identifying information , but just enough statistical representation of information. This motivates analysis which reflects the global dataset population , but does not capture any personally identifying information. 
+DP is based on Fundamental Law of Information Recovery which states that "overly accurate answers to too many questions will destroy privacy in a spectacular way".
+<p style="text-align:justify">Differential Privacy (DP) is one take on privacy which ensures that no single individual is affected for being a part of the dataset or data collection process. It not only protects the individuals from linkage attacks but also provides a plausible way of quanitifying privacy loss. </p>
+
+<p style="text-align:justify">To make it more intuitive as to why privacy is important,let us take an small example. Say a small town of 100 people has a total income of 200 million. If the next time you calculate this number and it ends up reducing to 180 million because there are 99 people. Using auxillary data sources you could find out who left the town from which isn't hard to infer that their income was 20 million. This could be discouraging for participants to participate in such statistics as it are leaks such sensitive information. These are known as differencing attacks.</p>
+<br />
+<br />
+<img src="https://camo.githubusercontent.com/ea990895b47703d5d7292bab7285ddd37f2f7497/687474703a2f2f636c6576657268616e732e696f2f6173736574732f646966666572656e7469616c2d707269766163792e706e67">
+
+<p style="text-align:justify">Now let us formalize the above example in terms of databases. The database with the indvidual is D1 and without individual is D2. One way to solve the above problem is to ensure that the output of a given algorithm or query such as above does not change with inclusion/exclusion of any individual.So the output of query sum(Income|D1)should be rougly equal or close to sum(Income|D2). That is the statistics or analyticals is not affected by an single individual but should reflect the overall population. So how could we possibly mitigate this? we could add random noise to both D1 and D2. We can formally quantify that the probability distribution of a given output D1 and D2 by epsilon.Its not necessary that the adversery specifically phrases queries in order to marginalize the individual. It can so happen that the resultant of certain conditionals of queries could result in violation of privacy. We ensure that probability of a given output of a mechanism on D1 is almost equal or close to the output for a given mechanism of D2 by a factor of exp(epsilon).</p>
+
+<div style="text-align:center">
+<img src="https://camo.githubusercontent.com/4385679354702242ee6e3add8589a716afbaa80b/68747470733a2f2f77696b696d656469612e6f72672f6170692f726573745f76312f6d656469612f6d6174682f72656e6465722f7376672f61333136306464373736633361313834313136373437623333666266643736333935356337656131">
+</div>
+
+<p style="text-align:justify">
+The above equation is the foundation of Differential privacy.
+We charecterize this by DP(<img height="20" width="20" src="https://camo.githubusercontent.com/fbcc26741027732b93efb1ba96c51dd79b6dc404/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f677265656b2d6c6174696e2d73796d626f6c732f32342f657073696c6f6e2d3132382e706e67">,0)
+
+
+<br />
+<p style="text-align:justify">The above charecterization is (epislon,delta) 
+<br />
+The delta term gives the tail bound of probability distribution.
+<br />
+<br />
+
+<p style="text-align:justify">In simple words we could say that a user's privacy is violated if more information is learnt about a given user when the analysis is performed. If a general inference is made about the population and the same applies to the specific user the users privacy is not violated.</p>
+
+<br />
+<br />
+
+<p style="text-align:justify">Data collection and analysis must be limited to representing statistics of entire population but in a way that individuals confidentiality is maintained.
+
+You can get complete privacy by absolutely outputting junk or get complete utility for a certain task by outputting raw data. So there is a tradeoff between the two. Differential Privacy is not a direct solution to privacy but a mathematical theory to quantify and guide development of private algorithms. Like Asymptotic analysis by itself is not an algorithm by itself but a theory to guide development of algorithms. The reason why it is important to quantify utility is that the adversery interacts with the database in the same manner as the analyst who could benifit from the database.</p>
+
+<br />
+
+<p style="text-align:justify"> While , DP can seem very pessimistic or unnecessary , the issues DP can quantify and guide to solve scale beyond just basic population statistics. Even training Neural Networks. What are the possible harms of neural networks ? Certain approaches could be used to reconstruct neural network training data.  Think about it this way , you are using a NLP service of predicting next word by a MLAAS(Machine Learning As a Service) provider such as Amazon AWS or Microsoft Azure. You could possibly get it to predict a next word that was supposed to confidential or a facial recognition algorithm service where you could show it images of similar people to get an idea of target people to know if they belonged to the training data.</p>
+
+<br />
+<center>
+ <b style="font-size:14px">(Image Credit: Berkeley Artificial Intelligence Research (BAIR))</b>
+ <br />
+<img src="https://bair.berkeley.edu/static/blog/memorization/predictive_models_2x.png">
+ <br />
+ <br />
+</center>
+<br />
+
+<p style="text-align:justify">Further , differential privacy does not aim to guarantee protection of most individuals data but designed to guarantee every individual's data. The few people with interesting data do form the most interesting insights in analysis and needs to be protected.</p>
+
+This introduces another term used to charecteristic a database called sensitivity. This can be given
+
+<br />
+<br />
+
+<div style="text-align:center">
+<center>
+<img height="300px" src="https://camo.githubusercontent.com/8f3ce8461e79cf3bb8e7294e36f4fe5e5f8d207e/68747470733a2f2f77696b696d656469612e6f72672f6170692f726573745f76312f6d656469612f6d6174682f72656e6465722f7376672f32646637386532613936666366376166393065336236303366386535373263383337666138303739">
+ </center>
+</div>
+
+<p style="text-align:justify">What it intuitively means is that how likely the value of outcome would change if given person was not in the database. Similar to epsilon definition privacy but here we are taking in terms absolute values and not probabilities.Sensitivity is a term that is dependent on the database.
+
+<br />
+<br />
+<p style="text-align:justify">A major guarantee of DP is that it protects individuals data from auxillary information. That is if the data from a given database is combined with data from other database , the data of the individuals still remains private.</p>
+
+Check out Part II of the tutorials where I will cover some basic DP mechanisms
+<p>I thank my friend Shravan Sridhar for reviewing and helping me improve this article</p>
