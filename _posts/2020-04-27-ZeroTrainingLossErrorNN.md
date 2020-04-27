@@ -1,5 +1,5 @@
 ---
-title:  "Differential Privacy Part-I: Introduction"
+title:  "Mitigating Zero Training Loss in neural networks and effetcs"
 layout: posts
 mathjax: "true"
 ---
