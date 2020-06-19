@@ -13,17 +13,17 @@ Manual reannotation is the process of you going through image/text of your datas
 Manually reannotating not only helps remove incorrect labels but also helps understand the biases your algorithm could pick up on or even pick up on certain biases for the algorithm to make training easier. 
   Further it also helps you decide the type of augmentations that could help your algorithm learn from. While its true neural networks are still blackboxes or less interpretable , on a high level there is still some way to understand what they could pick up on or what they are picking up on.</p>
   
-<img src="Images/allIndoors.jpg"/>
+<img src="../Images/allIndoors.jpg"/>
 <p style="text-align:justify">Let us take an example of the task of Indoor Scene recognition<add reference>. A simple <add reference>Alexnet model was trained on just 5000 images to recognize 67 different scenes , specifically it was trained on the MIT outdoor dataset[add reference link).</p>
 
 
 <h2>Incorrect Annotations</h2>
 <div>
-<img height="200px" width="200px" src="/Images/dsc04183.jpg"/>
+<img height="200px" width="200px" src="../Images/"/>
 <p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
-<img height="200px" width="200px" src="/Images/homeoff005.jpg"/>
+<img height="200px" width="200px" src="../Images/homeoff005.jpg"/>
 <p>The above image was labelled as auditorium while it could belong to category "office".
-<img height="200px" width="200px" src="/Images/serre43_173.jpg"/>
+<img height="200px" width="200px" src="../Images/serre43_173.jpg"/>
 <p>The above image was labelled as office. I can clearly imagine my perfect neural network just memorizing this image. 
 </div>
 <h2>Confusing Images</h2>
