@@ -26,7 +26,6 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <img height="200px" width="200px" 
  src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0528.jpg?token=ABK4NEJYCGTFTOOBLCBC2US66XOXK">
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34">
-  </div>
 </center>
 <div>
 <p>Here are some images that are present in the category bar but would'nt make good images for classifying bars. Although they might have certain features and are images taken in bars they seem more like a restaurant or a deli.The dataset also has classes called restaurant and deli making it harder to learn both the classes. 
@@ -38,9 +37,15 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 </div>
 
 <h2>Incorrect Annotations</h2>
-<p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
-<p>The above image was labelled as auditorium while it could belong to category "office".
-<p>The above image was labelled as office. I can clearly imagine my perfect neural network just memorizing this image. 
+<div>
+  <p style="text-align:justify">The datase had some incorrect classes which could also lead to learning some incorrect features.</p>
+<center>
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/homeoff005.jpg?token=ABK4NEOKRBNEJXCLLSXD7S266XVM6">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/serre43_173.jpg?token=ABK4NEOHIOBNNKKGRFXOXAC66XVNE">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/dsc04183.jpg?token=ABK4NEIUUSOXHTYFFHAXTGS66XVPE">
+</center>
+</div>
+
 <h2>Confusing Images</h2>
 <p>While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features.</p>
 <p>Add staircase example</p>
