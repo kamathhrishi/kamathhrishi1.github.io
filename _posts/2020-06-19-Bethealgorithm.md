@@ -28,18 +28,18 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34">
   </div>
 </center>
-
-<h2>Incorrect Annotations</h2>
 <div>
 <center>
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0194.jpg?token=ABK4NEOUW4RWTT5BCGFZFRC66XQTI">
  <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA">
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0372.jpg?token=ABK4NELRL6JCK7KVE4KMX2C66XQS2">
 </center>
+</div>
+
+<h2>Incorrect Annotations</h2>
 <p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
 <p>The above image was labelled as auditorium while it could belong to category "office".
 <p>The above image was labelled as office. I can clearly imagine my perfect neural network just memorizing this image. 
-</div>
 <h2>Confusing Images</h2>
 <p>While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features.</p>
 <p>Add staircase example</p>
