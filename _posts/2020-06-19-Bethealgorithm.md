@@ -18,18 +18,21 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 </center>
 <p style="text-align:justify">Let us take an example of the task of Indoor Scene recognition<add reference>. A simple <add reference>Alexnet model was trained on just 5000 images to recognize 67 different scenes , specifically it was trained on the MIT outdoor dataset[add reference link).</p>
   
-<p style="text-align:justify">Let us annotate the class bar</p>
+<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define a bar> a bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us collect some images or ensure we have a dataset with these features on which a model could be trained on. Here are some examples which agree upon the definition. </p>
 
 <center>
-<img height="300px" width="300px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEI7XT4UMWWODSI4U6K66XMFA">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEI7XT4UMWWODSI4U6K66XMFA">
+<img height="200px" width="200px" 
+ src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0528.jpg?token=ABK4NEJYCGTFTOOBLCBC2US66XOXK">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34">
 </center>
-
-
 <h2>Incorrect Annotations</h2>
 <div>
+<center>
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/dsc04183.jpg?token=ABK4NEIRXWJAH2HAXOPOP7266XJIS">
  <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/homeoff005.jpg?token=ABK4NEPC3VNADGUAG56WIVC66XJQY">
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/serre43_173.jpg?token=ABK4NENC7ER7FCFIYZQHHRC66XJSM">
+</center>
 <p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
 <p>The above image was labelled as auditorium while it could belong to category "office".
 <p>The above image was labelled as office. I can clearly imagine my perfect neural network just memorizing this image. 
