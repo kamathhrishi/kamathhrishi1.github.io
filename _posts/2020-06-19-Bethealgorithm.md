@@ -53,21 +53,26 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images,the first image is labelled as a train station but has features that it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
 
 
-<h2>Inference Results</h2>
+<h2>Relating Inference Results</h2>
 
 <p style="text-align:justify">Further, I would like to share some observations I noticed after I trained a Alexnet on the training data. The inference was stricly performed on the test data.</p>
 
 
 <p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>
 
+
+<h3>Color and Texture</h3>
+<div>
+<center>
+<img height="200px" width="200px" src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/b20.jpg?raw=true">
+<img height="200px" width="200px" src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/VA_04_02_6000_24_l.jpg?raw=true">
+<p>In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data.</p>
+
 <h3>Brightness</h3>
-<p>Bar and other images</p>
+Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
+
 <h3>Scale of objects</h3>
-
-<h3>Color</h3>
-<p>Casino and bed</p>
-<p>Hospital and bed</p>
-
+<p>The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.</p>
 
 
 
