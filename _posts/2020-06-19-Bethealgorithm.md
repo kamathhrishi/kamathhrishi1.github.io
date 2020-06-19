@@ -52,9 +52,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/INT69.jpg?token=ABK4NEKJW3DMDWEXZ57ZL3C66X5X2">
 </div>
 
-<p style="text-align:justify">While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features or there might not be enough relevant data to learn the precise features..</p>
-
-
+<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above image , the first image could possibly be a part of a church , airport , train station or a mall. The second could classified as a staircase , mall or airport. The second being staircase and a train station.</p>
 
 <h2>Brightness</h2>
 <p>Bar and other images</p>
