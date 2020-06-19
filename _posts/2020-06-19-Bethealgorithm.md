@@ -12,18 +12,19 @@ mathjax: "true"
 Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. I din't know what a cloister was until I manually began reannotating my dataset. It just seemed like walls of Stanford University I admired. 
 Manually reannotating not only helps remove incorrect labels but also helps understand the biases your algorithm could pick up on or even pick up on certain biases for the algorithm to make training easier. 
   Further it also helps you decide the type of augmentations that could help your algorithm learn from. While its true neural networks are still blackboxes or less interpretable , on a high level there is still some way to understand what they could pick up on or what they are picking up on.</p>
+ 
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM></img>
   
-![Image](../_posts/Images/allIndoors.jpg?raw=true)
 <p style="text-align:justify">Let us take an example of the task of Indoor Scene recognition<add reference>. A simple <add reference>Alexnet model was trained on just 5000 images to recognize 67 different scenes , specifically it was trained on the MIT outdoor dataset[add reference link).</p>
 
 
 <h2>Incorrect Annotations</h2>
 <div>
-![Image](Images/dsc04183.jpg)
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/dsc04183.jpg?token=ABK4NEIRXWJAH2HAXOPOP7266XJIS">
 <p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
-![Image](Images/homeoff005.jpg)
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/homeoff005.jpg?token=ABK4NEPC3VNADGUAG56WIVC66XJQY">
 <p>The above image was labelled as auditorium while it could belong to category "office".
-![Image]("../Images/serre43_173.jpg)
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/serre43_173.jpg?token=ABK4NENC7ER7FCFIYZQHHRC66XJSM">
 <p>The above image was labelled as office. I can clearly imagine my perfect neural network just memorizing this image. 
 </div>
 <h2>Confusing Images</h2>
