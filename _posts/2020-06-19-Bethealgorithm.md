@@ -35,14 +35,16 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <h2>Incorrect Annotations</h2>
 <div>
-  <p style="text-align:justify">The datase had some incorrect classes which could also lead to learning some incorrect features.</p>
 <center>
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/homeoff005.jpg?token=ABK4NEOKRBNEJXCLLSXD7S266XVM6">
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/serre43_173.jpg?token=ABK4NEOHIOBNNKKGRFXOXAC66XVNE">
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/dsc04183.jpg?token=ABK4NEIUUSOXHTYFFHAXTGS66XVPE">
+</div>
+  
+<p style="text-align:justify">The datase had some incorrect classes which could also lead to learning some incorrect feature or making it difficult to learn the right features.</p>
 
 <h2>Confusing Images</h2>
-<p style="text-align:justify">While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features.</p>
+<p style="text-align:justify">While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features or there might not be enough relevant data to learn the precise features..</p>
 
 <p>Add staircase example</p>
 <p>Add train station example</p>
