@@ -21,7 +21,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <p style="text-align:justify">Let us annotate the class bar</p>
 
 <center>
-<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEI7XT4UMWWODSI4U6K66XMFA">
+<img height="300px" width="300px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEI7XT4UMWWODSI4U6K66XMFA">
 </center>
 
 
