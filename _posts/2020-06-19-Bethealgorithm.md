@@ -13,7 +13,7 @@ Manual reannotation is the process of you going through image/text of your datas
 Manually reannotating not only helps remove incorrect labels but also helps understand the biases your algorithm could pick up on or even pick up on certain biases for the algorithm to make training easier. 
   Further it also helps you decide the type of augmentations that could help your algorithm learn from. While its true neural networks are still blackboxes or less interpretable , on a high level there is still some way to understand what they could pick up on or what they are picking up on.</p>
   
-![Image](blob/master/_posts/Images/allIndoors.jpg)
+![Image](Images/allIndoors.jpg)
 <p style="text-align:justify">Let us take an example of the task of Indoor Scene recognition<add reference>. A simple <add reference>Alexnet model was trained on just 5000 images to recognize 67 different scenes , specifically it was trained on the MIT outdoor dataset[add reference link).</p>
 
 
