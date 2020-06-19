@@ -48,8 +48,8 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <div>
 <center>
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/train_station_34_15_altavista.jpg?token=ABK4NEJSDFUIXKZPKCIEPUK66X5SO">
-<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NENCJ33LDSQGYSY43Q266X5YC">
-<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NENCJ33LDSQGYSY43Q266X5YC">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg token=ABK4NENCJ33LDSQGYSY43Q266X5YC">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/INT69.jpg?token=ABK4NEKJW3DMDWEXZ57ZL3C66X5X2">
 </div>
 
 <p style="text-align:justify">While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features or there might not be enough relevant data to learn the precise features..</p>
