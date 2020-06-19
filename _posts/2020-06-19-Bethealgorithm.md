@@ -32,9 +32,9 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <h2>Incorrect Annotations</h2>
 <div>
 <center>
-<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/dsc04183.jpg?token=ABK4NEIRXWJAH2HAXOPOP7266XJIS">
- <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/homeoff005.jpg?token=ABK4NEPC3VNADGUAG56WIVC66XJQY">
-<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/serre43_173.jpg?token=ABK4NENC7ER7FCFIYZQHHRC66XJSM">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0194.jpg?token=ABK4NEOUW4RWTT5BCGFZFRC66XQTI">
+ <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0372.jpg?token=ABK4NELRL6JCK7KVE4KMX2C66XQS2">
 </center>
 <p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
 <p>The above image was labelled as auditorium while it could belong to category "office".
