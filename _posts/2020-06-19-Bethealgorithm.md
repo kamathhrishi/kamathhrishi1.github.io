@@ -18,6 +18,18 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <h1>Confusing Images</h1>
 
-<h1>Brightness</h1>
+<p>Computer room and office room</p>
+<p>Libing room and bedroom</p>
+<p>Corridor and prison</p>
+<p>Church inside and bed</p>
 
+<h1>Brightness</h1>
+<p>Bar and other images</p>
 <h1>Scale of objects</h1>
+
+<h1>Color</h1>
+<p>Casino and bed</p>
+<p>Hospital and bed</p>
+
+<p>Note that I take no credit for this idea. Its something I came across Andrej Karpathy's blogpost a few years back and was reminded when I read this tweet</p>
+
