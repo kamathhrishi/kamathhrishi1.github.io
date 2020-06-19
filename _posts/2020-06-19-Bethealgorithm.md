@@ -27,7 +27,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
  src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0528.jpg?token=ABK4NEJYCGTFTOOBLCBC2US66XOXK">
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34">
 <div>
-<p>Here are some images that are present in the category bar but would'nt make good images for classifying bars. Although they might have certain features and are images taken in bars they seem more like a restaurant or a deli.The dataset also has classes called restaurant and deli making it harder to learn both the classes. 
+<p style="text-align:justify">Here are some images that are present in the category bar but would'nt make good images for classifying bars. Although they might have certain features and are images taken in bars they seem more like a restaurant or a deli.The dataset also has classes called restaurant and deli making it harder to learn both the classes. 
 <center>
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0194.jpg?token=ABK4NEOUW4RWTT5BCGFZFRC66XQTI">
  <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA">
@@ -42,7 +42,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/dsc04183.jpg?token=ABK4NEIUUSOXHTYFFHAXTGS66XVPE">
 
 <h2>Confusing Images</h2>
-<p>While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features.</p>
+<p style="text-align:justify">While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features.</p>
 
 <p>Add staircase example</p>
 <p>Add train station example</p>
