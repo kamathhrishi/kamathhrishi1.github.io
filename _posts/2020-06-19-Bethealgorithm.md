@@ -55,9 +55,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <h2>Inference Results</h2>
 
-<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images,the first image is labelled as a train station but has features that it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
-
-<p>Further, I would like to share some observations I noticed after I trained a Alexnet on the training data. The inference was stricly performed on the test data.</p>
+<p style="text-align:justify">Further, I would like to share some observations I noticed after I trained a Alexnet on the training data. The inference was stricly performed on the test data.</p>
 
 <h3>Brightness</h3>
 <p>Bar and other images</p>
