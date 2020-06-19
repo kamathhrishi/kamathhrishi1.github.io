@@ -21,10 +21,10 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <h2>Incorrect Annotations</h2>
 <div>
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/dsc04183.jpg?token=ABK4NEIRXWJAH2HAXOPOP7266XJIS">
-<p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
-<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/homeoff005.jpg?token=ABK4NEPC3VNADGUAG56WIVC66XJQY">
-<p>The above image was labelled as auditorium while it could belong to category "office".
+ <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/homeoff005.jpg?token=ABK4NEPC3VNADGUAG56WIVC66XJQY">
 <img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/serre43_173.jpg?token=ABK4NENC7ER7FCFIYZQHHRC66XJSM">
+<p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
+<p>The above image was labelled as auditorium while it could belong to category "office".
 <p>The above image was labelled as office. I can clearly imagine my perfect neural network just memorizing this image. 
 </div>
 <h2>Confusing Images</h2>
