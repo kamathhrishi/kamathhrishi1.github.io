@@ -10,24 +10,24 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <p>Let us take an example of the task of Indoor Scene recognition. A simple Alexnet model was trained on just 5000 images to recognize 67 different scenes , specifically it was trained on the MIT outdoor dataset[add reference link).</p>
 
-<h1>Incorrect Annotations</h1>
+<h2>Incorrect Annotations</h2>
 
 <p>Add staircase example</p>
 <p>Add train station example</p>
 <p>While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features.</p>
 
-<h1>Confusing Images</h1>
+<h2>Confusing Images</h2>
 
 <p>Computer room and office room</p>
 <p>Libing room and bedroom</p>
 <p>Corridor and prison</p>
 <p>Church inside and bed</p>
 
-<h1>Brightness</h1>
+<h2>Brightness</h2>
 <p>Bar and other images</p>
-<h1>Scale of objects</h1>
+<h2>Scale of objects</h2>
 
-<h1>Color</h1>
+<h2>Color</h2>
 <p>Casino and bed</p>
 <p>Hospital and bed</p>
 
