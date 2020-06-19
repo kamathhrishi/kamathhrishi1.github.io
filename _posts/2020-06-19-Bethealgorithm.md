@@ -64,8 +64,9 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <h3>Color and Texture</h3>
 <div>
 <center>
-<img height="200px" width="200px" src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/b20.jpg?raw=true">
-<img height="200px" width="200px" src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/VA_04_02_6000_24_l.jpg?raw=true">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/b20.jpg?token=ABK4NEOIFJ4KJJGWFUD23PK66YL7W">
+<img height="200px" width="200px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/VA_04_02_6000_24_l.jpg?token=ABK4NEJBZUJN3G5ALSJ5GJ266YMD4">
+  
 <p>In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data.</p>
 
 <h3>Brightness</h3>
