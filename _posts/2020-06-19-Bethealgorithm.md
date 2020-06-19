@@ -4,21 +4,27 @@ layout: posts
 mathjax: "true"
 ---
 
+<center>
+<img src="https://i.stack.imgur.com/bN2iA.png"></img>
+</center>
+
 <p style="text-align:justify">In conventional machine learning , it required the practinioner to manually look at images/text and decide appropriate features. Deep Learning models are powerful. Powerful enough network that they could just memorize random data without any real correlations [add reference]. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort.While , Deep learning gives us the flexibility to learn these features from raw images/text but at the expense of a lot of data. Its not magic it still requires some correlated patterns.This requires you to more or less necessary to understand your training dataset.As the common deep learning phrase goes "Your algorithm is good as your data". Deep learning architectures help extract features relevant to given dataset, part rovided you have enough examples that expose right features.
 Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. I din't know what a cloister was until I manually began reannotating my dataset. It just seemed like walls of Stanford University I admired. 
 Manually reannotating not only helps remove incorrect labels but also helps understand the biases your algorithm could pick up on or even pick up on certain biases for the algorithm to make training easier. 
   Further it also helps you decide the type of augmentations that could help your algorithm learn from. While its true neural networks are still blackboxes or less interpretable , on a high level there is still some way to understand what they could pick up on or what they are picking up on.</p>
   
-<p>Add image of indoor scene recognition</p>
+<img src="Images/allIndoors.jpg"></img>
 
 <p style="text-align:justify">Let us take an example of the task of Indoor Scene recognition<add reference>. A simple <add reference>Alexnet model was trained on just 5000 images to recognize 67 different scenes , specifically it was trained on the MIT outdoor dataset[add reference link).</p>
 
 
 <h2>Incorrect Annotations</h2>
 
-<p>Add home office</p>
-<p></p>
-
+<div>
+<img height="200px" width="200px" src="Images/dsc04183.jpg"></img>
+<img height="200px" width="200px" src="Images/homeoff005.jpg"></img>
+<img height="200px" width="200px" src="Images/serre43_173.jpg"></img>
+</div>
 
 <p>While annotators do try their best to add relevant scenes in the dataset at times it does get confusing for neural networks for learning the right features.</p>
 
