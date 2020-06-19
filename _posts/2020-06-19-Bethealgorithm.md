@@ -16,7 +16,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <center>
 <img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
 </center>
-<p style="text-align:justify">Let us take an example of the task of Indoor Scene recognition<add reference>. A simple <add reference>Alexnet model was trained on just 5000 images to recognize 67 different scenes , specifically it was trained on the MIT outdoor dataset[add reference link).
+<p style="text-align:justify">I would like to show an example of manually annotating datasets with a Indoor Scene Recognition dataset and also illustrate some interesting things I came across while reannotating it. The dataset consists of around only 5000 images of 67 different classes [add reference]</p>
   
 <p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us collect some images or ensure we have a dataset with these features on which a model could be trained on. Here are some examples which agree upon the definition.
 
