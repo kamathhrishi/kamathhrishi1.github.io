@@ -57,6 +57,9 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <p style="text-align:justify">Further, I would like to share some observations I noticed after I trained a Alexnet on the training data. The inference was stricly performed on the test data.</p>
 
+
+<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>
+
 <h3>Brightness</h3>
 <p>Bar and other images</p>
 <h3>Scale of objects</h3>
@@ -65,6 +68,6 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <p>Casino and bed</p>
 <p>Hospital and bed</p>
 
-<p>Note that I take no credit for this idea. Its something I came across Andrej Karpathy's blogpost a few years back and was reminded when I read this tweet</p>
+
 
 
