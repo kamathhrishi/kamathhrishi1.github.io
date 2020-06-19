@@ -19,7 +19,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <h2>Incorrect Annotations</h2>
 <div>
-<img height="200px" width="200px" src="../Images/"/>
+<img height="200px" width="200px" src="../Images/dsc04183.jpg"/>
 <p>The above image was labelled as bedroom while the label kitchen or dining room seemed more appropriate. 
 <img height="200px" width="200px" src="../Images/homeoff005.jpg"/>
 <p>The above image was labelled as auditorium while it could belong to category "office".
