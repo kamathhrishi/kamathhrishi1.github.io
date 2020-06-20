@@ -80,10 +80,6 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <div>
 <center>
 <p style="text-align:justify">In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data.</p>
- 
-<center>
-<p style="text-align:justify">In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data.</p>
-  
   
 
 <h3>Brightness</h3>
