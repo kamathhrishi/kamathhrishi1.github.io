@@ -79,7 +79,7 @@ The first image meets our definition of a bar : high chairs [check], drinks [che
   
 
 <h3>Brightness</h3>
-<p style="text-align:justify">Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
+<p style="text-align:justify">Ensure there are enough bright and dark images of for a given class unless being low lit or bright is a feature of a given category. Most low lit images were classified as a bar or were present in top-3 predictions as almost all bar pictures were low lit.</p>
   
 <center>
 <h3>Scale of objects</h3>
