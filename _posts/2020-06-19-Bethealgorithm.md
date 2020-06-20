@@ -85,12 +85,12 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images,the first image is labelled as a train station but has features that it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
 
 <h3>Color and Texture</h3>
-
  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/b20.jpg?token=ABK4NEOIFJ4KJJGWFUD23PK66YL7W" width="200" height="150" />
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/sala_de_juegos_13_14_altavista.jpg?token=ABK4NEI5FKUX343SLSCH5NS66YMZK2" width="200" height="150"/>
 </p>
   
 <p>In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data.</p>
+
 
 <h3>Brightness</h3>
 Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
