@@ -94,4 +94,7 @@ References
 <p style="text-align:justify">
 1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals , "Understanding deep learning requires rethinking generalization" 
 </p>
+<p style="text-align:justify">
+2. A. Quattoni, and A.Torralba. Recognizing Indoor Scenes. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009
+</p>
 
