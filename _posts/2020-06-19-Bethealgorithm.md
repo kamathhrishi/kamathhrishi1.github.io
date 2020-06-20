@@ -12,9 +12,9 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <center>
 <img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
 </center>
-<p style="text-align:justify">I would like to show an example of manually annotating the Indoor Scene Recognition dataset and illustrate some interesting things I came across doing it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
+<p style="text-align:justify">I would like to show an example of manually annotating the Indoor Scene Recognition dataset and illustrate some interesting things I came across while doing it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
   
-<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
+<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context.Depending on the class all or some features could exist for the image to satisfy requirement of the class. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
 <center>
 <div>
   
