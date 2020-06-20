@@ -15,7 +15,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 </center>
 <p style="text-align:justify">I would like to show an example of manually annotating datasets with a Indoor Scene Recognition dataset and also illustrate some interesting things I came across while reannotating it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
   
-<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us collect some images or ensure we have a dataset with these features on which a model could be trained on. Here are some examples which agree upon the definition.
+<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us look at a few samples image and decide how to eliminate or keep them based on selected criteria.Here are some examples which agree upon the definition.
 
 <center>
 <div>
@@ -27,7 +27,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 </p>
  
  
-<p style="text-align:justify">Here are some images that are present in the category bar but would'nt make good images for classifying bars. Although they might have certain features and are images taken in bars they seem more like a restaurant or a deli.The dataset also has classes called restaurant and deli making it harder to learn both the classes. 
+<p style="text-align:justify">Below are some images that also have the labels bar , but wouldn't necessarily make good images to train the algorithm. Although they might have certain features and are images taken in bars they seem more like a restaurant or a deli.The dataset also has classes called restaurant and deli making it harder to distinguish the classes.
 <center>
   
 <p float="center">
