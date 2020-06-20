@@ -76,7 +76,7 @@ The first image meets our definition of a bar : high chairs [check], drinks [che
 <p style="text-align:justify">In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data. Similarly there were insatnces where textures light bluish green textures were classifed as hospitals rooms as there were images of paramedics with bluish green clothes.</p>
  
 <h3>Video and Book Store</h3>
-There were different categories called video and book store. Individually observing each of the images gave little or no information on whether racks contained books or video sets. They could instead be combined into a single category.
+There were two different categories called video and book store. Individually observing each of the images gave little or no information on whether racks contained books or video sets. They could instead be combined into a single category.
 
 <h3>Brightness</h3>
 <p style="text-align:justify">Ensure there are enough bright and dark images of for a given class unless being low lit or bright is a feature of a given category. Most low lit images were classified as a bar or were present in top-3 predictions as almost all bar pictures were low lit.</p>
