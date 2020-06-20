@@ -67,7 +67,6 @@ The first image meets our definition of a bar : high chairs [check], drinks [che
 <p style="text-align:justify">Some observations I made after I trained a Alexnet model[3] on the dataset. The inference was stricly performed on the test data.</p>
 
 <h2>Color and Texture</h2>
-<See church and bed example>
 <p float="center">
  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/b20.jpg?token=ABK4NEOIFJ4KJJGWFUD23PK66YL7W" width="200" height="100" />
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/sala_de_juegos_13_14_altavista.jpg?token=ABK4NEI5FKUX343SLSCH5NS66YMZK2" width="200" height="150"/> 
