@@ -89,6 +89,8 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>  
 
+<p style="text-align:justify">1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals , "Understanding deep learning requires rethinking generalization" </p>  
+
 References
 <p style="text-align:justify">
 1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals , "Understanding deep learning requires rethinking generalization" 
