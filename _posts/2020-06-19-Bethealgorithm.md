@@ -68,9 +68,6 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <p style="text-align:justify">Further, I would like to share some observations I noticed after I trained a Alexnet on the training data. The inference was stricly performed on the test data.</p>
 
 
-<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>
-
-
 <h2>Color and Texture</h2>
 
 <p float="center">
@@ -85,6 +82,8 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <h3>Brightness</h3>
 <p style="text-align:justify">Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
   
+  
+<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>  
   
 <center>
 <h3>Scale of objects</h3>
