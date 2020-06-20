@@ -15,23 +15,24 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 </center>
 <p style="text-align:justify">I would like to show an example of manually annotating datasets with a Indoor Scene Recognition dataset and also illustrate some interesting things I came across while reannotating it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
   
-<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us look at a few samples image and decide how to eliminate or keep them based on selected criteria.Here are some examples which agree upon the definition.
-
+<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
 <center>
 <div>
   
 <p float="center">
   <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEI7XT4UMWWODSI4U6K66XMFA" width="200" height="150" />
    <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA" width="200" height="150"/> 
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0004.jpg?token=ABK4NEMWLYZLVD2I6W7QKVS66XUR2" width="200" height="150"/>
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0004.jpg?token=ABK4NEMWLYZLVD2I6W7QKVS66XUR2" width="200" height="100"/>
 </p>
 <p float="center">
     <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0528.jpg?token=ABK4NEJYCGTFTOOBLCBC2US66XOXK" width="200" height="150"/> 
   <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0194.jpg?token=ABK4NEOUW4RWTT5BCGFZFRC66XQTI" width="200" height="150" />
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0080.jpg?token=ABK4NEJ4AHCGDLM5HHDYGYC6652QE" width="200" height="150" />
 </p>
  
-<p style="text-align:justify">Below are some images that also have the labels bar , but wouldn't necessarily make good images to train the algorithm. Although they might have certain features and are images taken in bars they seem more like a restaurant or a deli.The dataset also has classes called restaurant and deli making it harder to distinguish the classes.
+<p style="text-align:justify">
+The first image first our definition of a bar , high stolls [check] and drinks [check]. Although to truly learn these features you would need several different variations of the same to a name a few images with bartenders , people taking a drink and different shades of furnitures. The second image could be at a bar , but could also occur at a restaurant or a deli. But , low signals on whether it is a bar. The third image also looks more like a Deli or fancy bakery counter. The fourth image strengthens the features in first image. So does the fifth image. The last image could be bar but could possibly be in the category of gameroom or bowling.
+</p> 
 <center>
   
   
