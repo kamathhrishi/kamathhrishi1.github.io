@@ -82,12 +82,9 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <h3>Brightness</h3>
 <p style="text-align:justify">Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
   
-  
-<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>  
-  
 <center>
 <h3>Scale of objects</h3>
 <p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.</p>
   
 
-
+<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>  
