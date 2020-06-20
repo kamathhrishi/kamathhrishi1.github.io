@@ -31,12 +31,12 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 </p>
  
 <p style="text-align:justify">
-The first image first our definition of a bar , high stolls [check] and drinks [check]. Although to truly learn these features you would need several different variations of the same to a name a few images with bartenders , people taking a drink and different shades of furnitures. The second image could be at a bar , but could also occur at a restaurant or a deli. But , low signals on whether it is a bar. The third image also looks more like a Deli or fancy bakery counter. The fourth image strengthens the features in first image. So does the fifth image. The last image could be bar but could possibly be in the category of gameroom or bowling , the images of bottles are too small to be learnt. The only strong signal being the high stoll.
+The first image first our definition of a bar , high stolls [check] and drinks [check]. Although to truly learn these features you would need several different variations of the same to a name a few images with bartenders , people taking a drink and different shades of furnitures. The second image could be at a bar , but could also occur at a restaurant or a deli. But , low signals on whether it is a bar. The third image also looks more like a Deli or fancy bakery counter. The fourth image strengthens the features in first image. So does the fifth image. The last image could be bar but could possibly be in the category of gameroom or bowling , the images of bottles are too small to be learnt. The only strong signal being the high stoll. While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausible expect the algorithm to learn the required feature. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image , which will be further discussed.
 </p> 
+
+
 <center>
   
-  
-
 
 <h2>Incorrect Annotations</h2>
 <div>
