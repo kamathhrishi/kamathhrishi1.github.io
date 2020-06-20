@@ -87,15 +87,14 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <center>
 <p style="text-align:justify"><p>Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
   
-<p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.</p>
-  
-  
 
 <h3>Brightness</h3>
-<p>Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
-
+<p style="text-align:justify">Some other interesting observations were some dark lit images with people were classified as bar which could attributed to most of the bar images in bars being low lit.</p>
+  
+  
+<center>
 <h3>Scale of objects</h3>
-<p>The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.</p>
-
+<p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.</p>
+  
 
 
