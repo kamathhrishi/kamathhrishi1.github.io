@@ -84,7 +84,7 @@ There were different categories called video and book store. Individually observ
   
 <center>
 <h3>Scale of objects</h3>
-<p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.</p>
+<p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.Similarly the scale of features in any classification task need to be similar or the network needs to be exposed to enough images of different scales.</p>
   
 
 <p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>  
