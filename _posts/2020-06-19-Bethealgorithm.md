@@ -13,7 +13,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <center>
 <img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
 </center>
-<p style="text-align:justify">I would like to show an example of manually annotating datasets with a Indoor Scene Recognition dataset and also illustrate some interesting things I came across while reannotating it. The dataset consists of around only 5000 images of 67 different classes [add reference]</p>
+<p style="text-align:justify">I would like to show an example of manually annotating datasets with a Indoor Scene Recognition dataset and also illustrate some interesting things I came across while reannotating it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
   
 <p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context and depending on the class all or possible some features could exist. Let us collect some images or ensure we have a dataset with these features on which a model could be trained on. Here are some examples which agree upon the definition.
 
@@ -65,7 +65,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images,the first image is labelled as a train station but has features that it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
 <h2>Relating Inference Results</h2>
 
-<p style="text-align:justify">Further, I would like to share some observations I noticed after I trained a Alexnet on the training data. The inference was stricly performed on the test data.</p>
+<p style="text-align:justify">Further, I would like to share some observations I noticed after I trained a Alexnet[3] on the training data. The inference was stricly performed on the test data.</p>
 
 
 <h2>Color and Texture</h2>
@@ -96,5 +96,6 @@ References
 </p>
 <p style="text-align:justify">
 2. A. Quattoni, and A.Torralba. Recognizing Indoor Scenes. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009
+3. Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2017-05-24). "ImageNet classification with deep convolutional neural networks" (PDF). Communications of the ACM. 60 (6): 84–90. doi:10.1145/3065386. ISSN 0001-0782.
 </p>
 
