@@ -54,8 +54,8 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 <h2>Multiclass Images</h2>
 
 <p float="center">
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/train_station_34_15_altavista.jpg?token=ABK4NEJSDFUIXKZPKCIEPUK66X5SO" width="200" height="150" />
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NEO23YIJXDMW7Y7SWHK66X6O" width="200" height="150"/> 
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/train_station_34_15_altavista.jpg?token=ABK4NEJSDFUIXKZPKCIEPUK66X5SO" width="200" height="150" />
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NEIAD4UCOLTKPTHSPYC665OGQ" width="200" height="150"/> 
   <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/INT69.jpg?token=ABK4NEKJW3DMDWEXZ57ZL3C66X5X2" width="200" height="150"/>
 </p>
 
@@ -75,8 +75,7 @@ Manually reannotating not only helps remove incorrect labels but also helps unde
 
 <p float="center">
  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/b20.jpg?token=ABK4NEOIFJ4KJJGWFUD23PK66YL7W" width="200" height="150" />
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NEIAD4UCOLTKPTHSPYC665OGQ" width="200" height="150"/> 
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/sala_de_juegos_13_14_altavista.jpg?token=ABK4NEI5FKUX343SLSCH5NS66YMZK2" width="200" height="150"/>
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/sala_de_juegos_13_14_altavista.jpg?token=ABK4NEI5FKUX343SLSCH5NS66YMZK2" width="200" height="150"/>
 </p>
  
   
