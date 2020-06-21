@@ -11,7 +11,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 
 This requires you to more or less understand your training dataset. As the common deep learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
  <b>Manual reannotation</b> is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
- Manually reannotating not only helps <b>remove incorrect labels</b> but also helps <b>>understand biases</b> your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier. Further it also helps you decide the type of <b>augmentations</b> that could help your algorithm generalize. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.
+ Manually reannotating not only helps <b>remove incorrect labels</b> but also helps <b>>understand biases</b> your algorithm could pick up on or even helps you understand your neural network predictions to an certain extent. Further it also helps you decide the type of <b>augmentations</b> that could help your algorithm generalize or help you pick up on certain data for the algorithm to make training easier. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.
 
 <center>
 
@@ -122,6 +122,6 @@ The only strong signal being the high chair , the images of bottles are too smal
 2. A. Quattoni, and A.Torralba. Recognizing Indoor Scenes. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009
 </p>
 <p style="text-align:justify">
-3. Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2017-05-24). "ImageNet classification with deep convolutional neural networks" (PDF). Communications of the ACM. 60 (6): 84–90. doi:10.1145/3065386. ISSN 0001-0782.
+3. Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2017-05-24). "ImageNet classification with deep convolutional neural networks". Communications of the ACM. 60 (6): 84–90. doi:10.1145/3065386. ISSN 0001-0782.
 </p>
 
