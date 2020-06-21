@@ -45,7 +45,8 @@ The fourth image strengthens the features in first image and so does the fifth i
 </p>
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
-The only strong signal being the high stoll,the images of bottles are too small to be learnt. While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required feature. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some other interesting things I noticed when reannotating the dataset. 
+The only strong signal being the high stoll,the images of bottles are too small to be learnt.</p>
+<p>While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some other interesting things I noticed when reannotating the dataset. 
 </p> 
 
 
