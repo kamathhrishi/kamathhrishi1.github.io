@@ -10,19 +10,16 @@ Manual reannotation is the process of you going through image/text of your datas
 Manually reannotating not only helps remove incorrect labels but also helps understand the biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier. Further it also helps you decide the type of augmentations that could help your algorithm learn. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.
  
 <center>
+
 <img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
 </center>
 <p style="text-align:justify">I would like to show an example of manually annotating the Indoor Scene Recognition dataset and illustrate some interesting things I came across while doing it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
   
 <p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context.Depending on the class all or some features could exist for the image to satisfy requirement of the class. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
-<center>
 <div>
- 
- 
 
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0080.jpg?token=ABK4NEJ4AHCGDLM5HHDYGYC6652QE" width="200" height="150" />
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
 
- 
 <p style="text-align:justify">
 The first image meets our definition of a bar : high chairs [check], drinks [check]. Although to be able to generalize these features you would need several different variations of the same to a name a few images with bartenders , people taking a drink and different shades of furnitures. 
 <p float="center">
@@ -44,14 +41,11 @@ The third image also looks more like a Deli or fancy bakery counter.
 The fourth image strengthens the features in first image and so does the fifth image making them appropriate training images. 
 
 <p float="center">
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0080.jpg?token=ABK4NEJ4AHCGDLM5HHDYGYC6652QE" width="200" height="150" />
 </p>
 
 The last image could be bar but could possibly be in the category of gameroom or bowling.
 
-<p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEI7XT4UMWWODSI4U6K66XMFA" width="200" height="150" />
-</p>
 
 The only strong signal being the high stoll,the images of bottles are too small to be learnt. While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required feature. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some other interesting things I noticed when reannotating the dataset. 
 </p> 
