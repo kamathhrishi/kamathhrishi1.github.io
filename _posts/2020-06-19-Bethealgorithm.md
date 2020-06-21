@@ -7,7 +7,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 
 <p style="text-align:justify">Conventional machine learning , it required the practinioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful. Powerful enough network that they could just memorize random data without any real correlations [1]. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort. While , Deep learning gives us the flexibility to learn these features from raw images/text but at the expense of a lot of data. Its not magic it still requires some correlated patterns. 
 
-![alt text](https://i.stack.imgur.com/bN2iA.png)
+<img height="400px" width="600px" src="https://i.stack.imgur.com/bN2iA.png">
 
 This requires you to more or less understand your training dataset. As the common deep learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
  <b>Manual reannotation</b> is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
