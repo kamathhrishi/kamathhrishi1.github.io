@@ -15,18 +15,18 @@ mathjax: "true"
 </center>
 <p style="text-align:justify">I would like to take an example of manually reannotating a computer vision classification task ,<b>Indoor Scene Recognition</b> dataset and illustrate some interesting things I came across while doing it. The dataset consists of around only 5000 images of 67 different classes [2].</p>
   
-<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context.Depending on the class all or some features could exist for the image to satisfy requirement of the class. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
+<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Offcourse not just these individual attributes but in the context. Depending on the class all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
 <div>
 
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
 
 <p style="text-align:justify">
-The first image meets our definition of a bar : high chairs [check], drinks [check]. Although to be able to generalize these features you would need several different variations of the same to a name a few images with bartenders , people taking a drink and different shades of furnitures. 
+The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image , to name a few images with bartender , people taking a drink and different shades of furnitures. 
 <p float="center">
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA" width="200" height="150"/> 
 </p>
  
-The second image could be at a bar , but looks more lik a fancy bakery or deli with only signal being the high chairs.  
+The second image could be at a bar , but looks more like a fancy bakery or deli with only signal being the high chairs.  
 
 <p float="center">
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0004.jpg?token=ABK4NEMWLYZLVD2I6W7QKVS66XUR2" width="200" height="150"/>
@@ -45,7 +45,7 @@ The fourth image strengthens the features in first image and so does the fifth i
 </p>
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
-The only strong signal being the high stoll,the images of bottles are too small to be learnt.</p>
+The only strong signal being the high chair , the images of bottles are too small to be learnt.</p>
 <p>While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
 </p> 
 
