@@ -6,12 +6,14 @@ summary:  "Manual reannotation is the process of you going through image/text of
 ---
 
 <p style="text-align:justify">Conventional machine learning required the practinioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful. Powerful enough network that they could just memorize random data without any real correlations [1]. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort. While , Deep learning gives us the flexibility to learn these features from raw images/text but at the expense of a lot of data. Its not magic it still requires some correlated patterns. 
+ 
 
 <img height="400px" width="600px" src="https://i.stack.imgur.com/bN2iA.png">
 
+
 This requires you to more or less understand your training dataset. As the common machine learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
  <b>Manual reannotation</b> is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
- Manually reannotating not only helps <b>remove incorrect labels</b> but also helps <b>>understand biases</b> your algorithm could pick up on or even helps you understand your neural network predictions to an certain extent. Further it also helps you decide the type of <b>augmentations</b> that could help your algorithm generalize or help you pick up on certain data for the algorithm to make training easier. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.
+ Manually reannotating not only helps <b>remove incorrect labels</b> but also helps <b>understand biases</b> your algorithm could pick up on or even helps you understand your neural network predictions to an certain extent. Further it also helps you decide the type of <b>augmentations</b> that could help your algorithm generalize or help you pick up on certain data for the algorithm to make training easier. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.
 
 <center>
 
@@ -50,7 +52,7 @@ The fourth image strengthens the features in first image and so does the fifth i
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
 The only strong signal being the high chair , the images of bottles are too small to be learnt.</p>
-<p>While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
+<p style="text-align:justify">While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
 </p> 
 
 
