@@ -64,7 +64,7 @@ The only strong signal being the high stoll,the images of bottles are too small 
 </p>
   
   
-<p style="text-align:justify">The datase had some incorrect classes which could also lead to learning some incorrect feature or making it difficult to learn the right features.Above images show some incorrect labels present in the dataset.The first image above was labelled as bedroom, second as auditorium and third as bedroom.</p>
+<p style="text-align:justify">The dataset had some incorrect classes which could also lead to learning some incorrect feature or making it difficult to learn the right features.Above images show some incorrect labels present in the dataset.The first image above was labelled as bedroom, second as auditorium and third as bedroom.</p>
 
 <h2>Multiclass Images</h2>
 
