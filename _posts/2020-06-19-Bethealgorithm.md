@@ -5,17 +5,17 @@ mathjax: "true"
 ---
 ![alt text](https://i.stack.imgur.com/bN2iA.png)
 
-<p style="text-align:justify">In conventional machine learning , it required the practinioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful. Powerful enough network that they could just memorize random data without any real correlations [1]. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort.While , Deep learning gives us the flexibility to learn these features from raw images/text but at the expense of a lot of data. Its not magic it still requires some correlated patterns.This requires you to more or less understand your training dataset.As the common deep learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
-Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
-Manually reannotating not only helps remove incorrect labels but also helps understand the biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier. Further it also helps you decide the type of augmentations that could help your algorithm learn. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.
- 
+<p style="text-align:justify">In conventional machine learning , it required the practinioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful. Powerful enough network that they could just memorize random data without any real correlations [1]. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort. While , Deep learning gives us the flexibility to learn these features from raw images/text but at the expense of a lot of data. Its not magic it still requires some correlated patterns. This requires you to more or less understand your training dataset. As the common deep learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
+ <b>Manual reannotation</b> is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
+ Manually reannotating not only helps <b>remove incorrect labels</b> but also helps <b>>understand biases</b> your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier. Further it also helps you decide the type of <b>augmentations</b> that could help your algorithm generalize. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.
+
 <center>
 
 <img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
 </center>
-<p style="text-align:justify">I would like to show an example of manually annotating the Indoor Scene Recognition dataset and illustrate some interesting things I came across while doing it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
+<p style="text-align:justify">I would like to show an example of manually annotating the <b>Indoor Scene Recognition</b> dataset and illustrate some interesting things I came across while doing it. The dataset consists of around only 5000 images of 67 different classes [2]</p>
   
-<p style="text-align:justify">Let us annotate the class bar.Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context.Depending on the class all or some features could exist for the image to satisfy requirement of the class. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
+<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar:bar stoll ,drinks,low lit,wooden furniture,people and some food. Offcourse not just these individual attributes but in the context.Depending on the class all or some features could exist for the image to satisfy requirement of the class. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
 <div>
 
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
@@ -46,14 +46,14 @@ The fourth image strengthens the features in first image and so does the fifth i
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
 The only strong signal being the high stoll,the images of bottles are too small to be learnt.</p>
-<p>While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some other interesting things I noticed when reannotating the dataset. 
+<p>While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
 </p> 
 
 
 <center>
   
 
-<h2>Incorrect Annotations</h2>
+<h2>Incorrect Labels</h2>
 <div>
 <center>
 
@@ -64,7 +64,7 @@ The only strong signal being the high stoll,the images of bottles are too small 
 </p>
   
   
-<p style="text-align:justify">The dataset had some incorrect classes which could also lead to learning some incorrect feature or making it difficult to learn the right features.Above images show some incorrect labels present in the dataset.The first image above was labelled as bedroom, second as auditorium and third as bedroom.</p>
+<p style="text-align:justify">The dataset had some incorrect labels which could also lead to learning some incorrect feature or making it difficult to learn the right features. Above images show some incorrect labels present in the dataset. The first image above was labelled as bedroom, second as auditorium and third as bedroom.</p>
 
 <h2>Multiclass Images</h2>
 
@@ -77,7 +77,7 @@ The only strong signal being the high stoll,the images of bottles are too small 
 
 <div>
 <center>
-<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images,the first image is labelled as a train station but has features that it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
+<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images , the first image is labelled as a train station but has features that it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
 <h2>Relating Inference Results</h2>
 
 <p style="text-align:justify">Some observations I made after I trained a Alexnet model[3] on the dataset. The inference was stricly performed on the test data.</p>
@@ -104,7 +104,7 @@ The only strong signal being the high stoll,the images of bottles are too small 
   
 <center>
 <h3>Scale of objects</h3>
-<p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference.Similarly the scale of features in any classification task need to be similar or the network needs to be exposed to enough images of different scales.</p>
+<p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference. Similarly the scale of features in any classification task need to be similar or the network needs to be exposed to enough images of different scales.</p>
   
 
 <p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>  
