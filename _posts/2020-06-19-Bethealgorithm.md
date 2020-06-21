@@ -2,6 +2,7 @@
 title:  "Deep Learning in Practice-Be the algorithm"
 layout: posts
 mathjax: "true"
+summary:  "Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. Manually reannotating not only helps remove incorrect labels but also helps understand biases</b> your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier."
 ---
 ![alt text](https://i.stack.imgur.com/bN2iA.png)
 
