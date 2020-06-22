@@ -1,11 +1,11 @@
 ---
-title:  "Deep Learning in Practice-Be the algorithm"
+title:  "Deep Learning in Practice-Be The algorithm"
 layout: posts
 mathjax: "true"
 summary:  "Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. Manually reannotating not only helps remove incorrect labels but also helps understand biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier."
 ---
 
-<p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful. Powerful enough that they could just memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort giving us the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
+<p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful , powerful enough that they could just memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort giving us the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
 <img height="400px" width="600px" src="https://i.stack.imgur.com/bN2iA.png">
 <p style="text-align:justify">Its not magic it still needs some correlated patterns to generalize and learn required features. This requires you to more or less understand your training dataset. As the common machine learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
  <b>Manual reannotation</b> is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
@@ -15,9 +15,9 @@ summary:  "Manual reannotation is the process of you going through image/text of
 
 <img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
 </center>
-<p style="text-align:justify">I would like to take an example of manually reannotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>. While in this post I take an example of Computer Vision task , you can use similarly analyze text/speed datasets or environments in Reinforcement Learning.</p>
+<p style="text-align:justify">I would like to take an example of manually reannotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>. While in this post I took an example of Computer Vision task , you can similarly analyze text/speech datasets or environments in Reinforcement Learning.</p>
   
-<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Offcourse not just these individual attributes but in the context. Depending on the class all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
+<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Ofcourse not just these individual attributes but in the context. Depending on the class all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
 <div>
  
 <p float="center">
