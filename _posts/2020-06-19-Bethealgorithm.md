@@ -26,7 +26,6 @@ summary:  "Manual reannotation is the process of you going through image/text of
 The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image , to name a few images with bartender , people taking a drink and different shades of furnitures. 
 <p float="center">
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEKIZ6YKA5MB7OB2DAS67HNPM" width="200" height="150"/>
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA" width="200" height="150"/> 
 </p>
  
@@ -43,7 +42,9 @@ The third image also looks more like a Deli or fancy bakery counter.
 </p>
 
 The fourth image strengthens the features in first image and so does the fifth image making them appropriate training images. 
-
+<p float="center">
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
+</p>
 <p float="center">
  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0080.jpg?token=ABK4NEJ4AHCGDLM5HHDYGYC6652QE" width="200" height="150" />
 </p>
