@@ -44,7 +44,7 @@ The third image also looks more like a Deli or fancy bakery counter.
 <p float="center">
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
 </p>
-<p>The fourth and fifth image strengthens the features in first image and so does the fifth image making them appropriate training images. </p>
+<p>The fourth and fifth image strengthens the features in first image and so does the fifth image making them appropriate training images. They contain high chairs , bottles , bar counters and even people.</p>
 <p float="center">
  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0080.jpg?token=ABK4NEJ4AHCGDLM5HHDYGYC6652QE" width="200" height="150" />
 </p>
