@@ -17,7 +17,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 </center>
 <p style="text-align:justify">I would like to take an example of manually reannotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>. While in this post I took an example of Computer Vision task , you can similarly analyze text/speech datasets or environments in Reinforcement Learning.</p>
   
-<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Ofcourse not just these individual attributes but in the context. Depending on the class all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
+<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Ofcourse not just these individual attributes but in the context. Depending on the label, all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
 <div>
  
 <p float="center">
@@ -25,7 +25,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 </p>
 
 <p style="text-align:justify">
-The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image , to name a few images with bartender , people taking a drink and different shades of furnitures. 
+The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image ,such as ones with a bartender , people taking a drink and different shades of furnitures. 
 <p float="center">
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA" width="200" height="150"/> 
 </p>
@@ -51,7 +51,7 @@ The third image also looks more like a Deli or fancy bakery counter.
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
 The only strong signal being the high chair , the images of bottles are too small to be learnt.</p>
-<p style="text-align:justify">While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed.Below are some  things I noticed when reannotating the dataset. 
+<p style="text-align:justify">While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features.But with enough variations of images with supporting features it makes them less likely to overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
 </p> 
 
 
@@ -94,7 +94,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 </p>
 <div>
 <center>
-<p style="text-align:justify">In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data. Similarly there were insatnces where textures light bluish green textures were classifed as hospitals rooms as there were images of paramedics with bluish green clothes.</p>
+<p style="text-align:justify">In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data. Similarly there were instances where textures light bluish green textures were classifed as hospitals rooms as there were images of paramedics with bluish green clothes.</p>
  
 
 <h3>Brightness</h3>
