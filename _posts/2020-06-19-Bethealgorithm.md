@@ -5,7 +5,7 @@ mathjax: "true"
 summary:  "Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. Manually reannotating not only helps remove incorrect labels but also helps understand biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier."
 ---
 
-<p style="text-align:justify">Conventional machine learning required the practinioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful. Powerful enough that they could just memorize random data without any real correlations [1]. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort giving us the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
+<p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful. Powerful enough that they could just memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to feed in input/output pairs for some tasks end to end without much preprocessing effort giving us the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
 <img height="400px" width="600px" src="https://i.stack.imgur.com/bN2iA.png">
 <p style="text-align:justify">Its not magic it still needs some correlated patterns to generalize and learn required features. This requires you to more or less understand your training dataset. As the common machine learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
  <b>Manual reannotation</b> is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
@@ -116,7 +116,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 
 <h3>References</h3>
-<p style="text-align:justify">
+<p id="ref1" style="text-align:justify">
 1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals , "Understanding deep learning requires rethinking generalization" 
 </p>
 <p style="text-align:justify">
