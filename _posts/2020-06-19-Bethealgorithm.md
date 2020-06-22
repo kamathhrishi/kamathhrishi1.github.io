@@ -116,6 +116,8 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 <p style="text-align:justify">I first read about this in Andrej Karpathy's <a href="http://karpathy.github.io/2014/09/02/what-i-learned-from-competing-against-a-convnet-on-imagenet/">blogpost</a> on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice. Understanding your data is definitely  important but it is also important to have a powerful model architecture and practices to be able to learn from the data. Ideally learning the right features require several different images with variations , which could be possible by gathering more data or by augmentations. I hope to write a future blogpost to explain how you could visualize what CNN network has learnt.</p>  
 
+<p style="text-align:justify">I would like to thank my friend Kavin Kumar for his valuable feedback in improving this article</p>
+
 
 <h3>References</h3>
 <a href="https://www.google.com/search?client=safari&rls=en&q=1.+Chiyuan+Zhang,+Samy+Bengio,+Moritz+Hardt,+Benjamin+Recht,+Oriol+Vinyals+,+%22Understanding+deep+learning+requires+rethinking+generalization%22&ie=UTF-8&oe=UTF-8"><p id="ref1" style="text-align:justify">
