@@ -15,7 +15,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 
 <img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
 </center>
-<p style="text-align:justify">I would like to take an example of manually reannotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes [2].</p>
+<p style="text-align:justify">I would like to take an example of manually reannotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>.</p>
   
 <p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Offcourse not just these individual attributes but in the context. Depending on the class all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
 <div>
@@ -85,7 +85,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 <p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images , the first image is labelled as a train station but has features that make it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
 <h2>Relating Inference Results</h2>
 
-<p style="text-align:justify">Some observations I made after I trained a Alexnet model[3] on the dataset. The inference was stricly performed on the test data.</p>
+<p style="text-align:justify">Some observations I made after I trained a Alexnet model<a href="#ref3">[3]</a> on the dataset. The inference was stricly performed on the test data.</p>
 
 <h2>Color and Texture</h2>
 <p float="center">
@@ -119,10 +119,10 @@ The only strong signal being the high chair , the images of bottles are too smal
 <p id="ref1" style="text-align:justify">
 1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals , "Understanding deep learning requires rethinking generalization" 
 </p>
-<p style="text-align:justify">
+<p id="ref2" style="text-align:justify">
 2. A. Quattoni, and A.Torralba. Recognizing Indoor Scenes. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009
 </p>
-<p style="text-align:justify">
+<p id="ref3" style="text-align:justify">
 3. Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2017-05-24). "ImageNet classification with deep convolutional neural networks". Communications of the ACM. 60 (6): 84–90. doi:10.1145/3065386. ISSN 0001-0782.
 </p>
 
