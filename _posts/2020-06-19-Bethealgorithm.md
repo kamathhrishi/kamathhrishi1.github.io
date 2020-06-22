@@ -19,6 +19,8 @@ summary:  "Manual reannotation is the process of you going through image/text of
   
 <p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Offcourse not just these individual attributes but in the context. Depending on the class all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.
 <div>
+ 
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEKIZ6YKA5MB7OB2DAS67HNPM" width="200" height="150"/>
 
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
 
