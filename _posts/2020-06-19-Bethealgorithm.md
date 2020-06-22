@@ -82,7 +82,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 <div>
 <center>
-<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images , the first image is labelled as a train station but has features that it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
+<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images , the first image is labelled as a train station but has features that make it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
 <h2>Relating Inference Results</h2>
 
 <p style="text-align:justify">Some observations I made after I trained a Alexnet model[3] on the dataset. The inference was stricly performed on the test data.</p>
@@ -112,7 +112,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 <p style="text-align:justify">The success of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference. Similarly the scale of features in any classification task need to be similar or the network needs to be exposed to enough images of different scales.</p>
   
 
-<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice. While , understanding your data is definitely  important it is also important to have a powerful model architecture and practices to be able to learn from the data. Ideally learning the right variations require several possible augmentations to make it robust.</p>  
+<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.Understanding your data is definitely  important it is also important to have a powerful model architecture and practices to be able to learn from the data. Ideally learning the right features require several different images with variations , which could be possible by gathering more data or by augmentations. I hope to write a future blogpost to explain how you could visualize what CNN network has learnt.</p>  
 
 
 <h3>References</h3>
