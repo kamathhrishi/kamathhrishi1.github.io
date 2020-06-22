@@ -51,7 +51,7 @@ The third image also looks more like a Deli or fancy bakery counter.
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
 The only strong signal being the high chair , the images of bottles are too small to be learnt.</p>
-<p style="text-align:justify">While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
+<p style="text-align:justify">While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , its not necessary at times there would be features that aren't very clear at the first look. The quality of features learnt depends on the amount of images supporting the features with enough variations that don't make them overfit to other aspects of the image which will be further discussed.Below are some  things I noticed when reannotating the dataset. 
 </p> 
 
 
@@ -109,10 +109,10 @@ The only strong signal being the high chair , the images of bottles are too smal
   
 <center>
 <h3>Scale of objects</h3>
-<p style="text-align:justify">The sucess of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference. Similarly the scale of features in any classification task need to be similar or the network needs to be exposed to enough images of different scales.</p>
+<p style="text-align:justify">The success of scene recognition depends upon recognizing objects associted with a given scene. When objects are of different scales it can make it harder to learnt the required patterns and also making it hard to generalize during inference. Similarly the scale of features in any classification task need to be similar or the network needs to be exposed to enough images of different scales.</p>
   
 
-<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice.</p>  
+<p style="text-align:justify">I first read about this in Andrej Karpathy's blogpost on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice. While , understanding your data is definitely  important it is also important to have a powerful model architecture and practices to be able to learn from the data. Ideally learning the right variations require several possible augmentations to make it robust.</p>  
 
 
 <h3>References</h3>
