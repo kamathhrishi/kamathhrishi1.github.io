@@ -102,7 +102,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 <h3>Video and Book Store</h3>
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bookstore_02_03_flickr.jpg?token=ABK4NENJN5PU36BUDWWHJRS666F2O" width="200" height="150" />
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/9f63b46ad67dbc0868afa77a45d339bb.jpg?token=ABK4NELETILOBZRWATOJ6D267LUJS" width="200" height="150" />
 <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/blockbuster_24_07_altavista.jpg?token=ABK4NEIJBWZ65QC5DD6Y252666F4A" width="200" height="150"/> 
 </p>
 <p style="text-align:justify">There were two different categories called video and book store. Individually observing each of the images gave little or no information on whether racks contained books or video sets. They could instead be combined into a single category.</p>
