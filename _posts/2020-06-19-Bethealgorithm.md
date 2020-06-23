@@ -90,7 +90,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 <h2>Color and Texture</h2>
 <p float="center">
  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/b20.jpg?token=ABK4NEOIFJ4KJJGWFUD23PK66YL7W" width="200" height="150" />
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/salle_de_jeux_09_05_altavista.jpg?token=ABK4NEOHLQ5HPPVWRCZLG4C67LQMQ" width="200" height="150"/> 
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL.png?token=ABK4NEPKZZCTV6FOOOCH4CK67LRNU" width="200" height="150"/> 
 </p>
 <div>
 <center>
