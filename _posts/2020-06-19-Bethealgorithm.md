@@ -23,32 +23,32 @@ summary:  "Manual reannotation is the process of you going through image/text of
 <div>
  
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEKIZ6YKA5MB7OB2DAS67HNPM" width="256" height="256"/>
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEKIZ6YKA5MB7OB2DAS67HNPM" width="200" height="150"/>
 </p>
 
 <p style="text-align:justify">
 The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image ,such as ones with a bartender , people taking a drink and different shades of furnitures. 
 <p float="center">
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA" width="256" height="256"/> 
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0439.jpg?token=ABK4NEMGDL3UVKZBOUM65Q266XQTA" width="200" height="150"/> 
 </p>
  
 The second image could be at a bar , but looks more like a fancy bakery or deli with only signal being the high chairs.  
 
 <p float="center">
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0004.jpg?token=ABK4NEMWLYZLVD2I6W7QKVS66XUR2" width="256" height="256"/>
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0004.jpg?token=ABK4NEMWLYZLVD2I6W7QKVS66XUR2" width="200" height="150"/>
 </p>
 
 The third image also looks more like a Deli or fancy bakery counter. 
 
 <p float="center">
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0528.jpg?token=ABK4NEJYCGTFTOOBLCBC2US66XOXK" width="256" height="256"/>
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0528.jpg?token=ABK4NEJYCGTFTOOBLCBC2US66XOXK" width="200" height="150"/>
 </p>
 <p float="center">
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="256" height="256"/>
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0310.jpg?token=ABK4NEKCBUANVMJPXH57MOS66XO34" width="200" height="150"/>
 </p>
 <p style="text-align:justify">The fourth and fifth image strengthens the features in first image and so does the fifth image making them appropriate training images. They contain high chairs , bottles , bar counters and even people.</p>
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0080.jpg?token=ABK4NEJ4AHCGDLM5HHDYGYC6652QE" width="256" height="256" />
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0080.jpg?token=ABK4NEJ4AHCGDLM5HHDYGYC6652QE" width="200" height="150" />
 </p>
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
@@ -65,9 +65,9 @@ The only strong signal being the high chair , the images of bottles are too smal
 <center>
 
 <p float="center">
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL3.png?token=ABK4NEPAVIMQ3WXMYG6YON267MBKA" width="256" height="256" />
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL4.png?token=ABK4NEKLPNCB7L5GX5OLA6K67MB4U" width="256" height="256"/> 
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL5.png?token=ABK4NEKP3CVT5SML25BR3DS67MCGI" width="256" height="256"/>
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL3.png?token=ABK4NEPAVIMQ3WXMYG6YON267MBKA" width="200" height="150" />
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL4.png?token=ABK4NEKLPNCB7L5GX5OLA6K67MB4U" width="200" height="150"/> 
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL5.png?token=ABK4NEKP3CVT5SML25BR3DS67MCGI" width="200" height="150"/>
 </p>
   
   
@@ -76,9 +76,9 @@ The only strong signal being the high chair , the images of bottles are too smal
 <h2>Multiclass Images</h2>
 
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL2.png?token=ABK4NEOM7HRJKBF43V2LSSS67L7RO" width="256" height="255" />
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NEIAD4UCOLTKPTHSPYC665OGQ" width="256" height="256"/> 
-  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/INT69.jpg?token=ABK4NEKJW3DMDWEXZ57ZL3C66X5X2" width="256" height="256"/>
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL2.png?token=ABK4NEOM7HRJKBF43V2LSSS67L7RO" width="200" height="150" />
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NEIAD4UCOLTKPTHSPYC665OGQ" width="200" height="150"/> 
+  <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/INT69.jpg?token=ABK4NEKJW3DMDWEXZ57ZL3C66X5X2" width="200" height="150"/>
 </p>
 
 
@@ -91,8 +91,8 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 <h2>Color and Texture</h2>
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/b20.jpg?token=ABK4NEOIFJ4KJJGWFUD23PK66YL7W" width="256" height="256" />
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL1.png?token=ABK4NEL56JYU5OARXJO6CWC67L7DI" width="256" height="256"/> 
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/b20.jpg?token=ABK4NEOIFJ4KJJGWFUD23PK66YL7W" width="200" height="150" />
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL1.png?token=ABK4NEL56JYU5OARXJO6CWC67L7DI" width="200" height="150"/> 
 </p>
 <div>
 <center>
@@ -104,8 +104,8 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 <h3>Video and Book Store</h3>
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/9f63b46ad67dbc0868afa77a45d339bb.jpg?token=ABK4NELETILOBZRWATOJ6D267LUJS" width="256" height="256" />
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL.png?token=ABK4NELQECIE2YHO2LD5OY267L642" width="256" height="256"/> 
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/9f63b46ad67dbc0868afa77a45d339bb.jpg?token=ABK4NELETILOBZRWATOJ6D267LUJS" width="200" height="150" />
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL.png?token=ABK4NELQECIE2YHO2LD5OY267L642" width="200" height="150"/> 
 </p>
 <p style="text-align:justify">There were two different categories called video and book store. Individually observing each of the images gave little or no information on whether racks contained books or video sets. They could instead be combined into a single category.</p>
   
