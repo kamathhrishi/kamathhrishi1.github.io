@@ -74,7 +74,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 <h2>Multiclass Images</h2>
 
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/train_station_34_15_altavista.jpg?token=ABK4NEJSDFUIXKZPKCIEPUK66X5SO" width="200" height="150" />
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/LOL2.png?token=ABK4NEOM7HRJKBF43V2LSSS67L7RO" width="200" height="150" />
   <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/int36.jpg?token=ABK4NEIAD4UCOLTKPTHSPYC665OGQ" width="200" height="150"/> 
   <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/INT69.jpg?token=ABK4NEKJW3DMDWEXZ57ZL3C66X5X2" width="200" height="150"/>
 </p>
