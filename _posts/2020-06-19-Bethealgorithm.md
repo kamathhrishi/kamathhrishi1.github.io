@@ -15,7 +15,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 
 <center>
 
-<img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEIT4QMOYRPWLNPZNXK66XJEM">
+<img height="400px" width="600px" src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/allIndoors.jpg?token=ABK4NEMGOYH35U7DNKEEQD27AVNWM">
 </center>
 <p style="text-align:justify">I would like to take an example of manually reannotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>. While in this post I took an example of Computer Vision task , you can similarly analyze text/speech datasets or environments in Reinforcement Learning.</p>
   
@@ -23,7 +23,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 <div>
  
 <p float="center">
- <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEKIZ6YKA5MB7OB2DAS67HNPM" width="200" height="150"/>
+ <img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0046.jpg?token=ABK4NEPPVB4MAOZCCS5M24K7AVN3G" width="200" height="150"/>
 </p>
 
 <p style="text-align:justify">
@@ -35,7 +35,7 @@ The first image meets our definition of a bar : high chairs [check], drinks [che
 The second image could be at a bar , but looks more like a fancy bakery or deli with only signal being the high chairs.  
 
 <p float="center">
-<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0004.jpg?token=ABK4NEMWLYZLVD2I6W7QKVS66XUR2" width="200" height="150"/>
+<img src="https://raw.githubusercontent.com/kamathhrishi/kamathhrishi.github.io/master/_posts/Images/bar_0004.jpg?token=ABK4NEP5JUONKCYO6EBH2Z27AVN72" width="200" height="150"/>
 </p>
 
 The third image also looks more like a Deli or fancy bakery counter. 
