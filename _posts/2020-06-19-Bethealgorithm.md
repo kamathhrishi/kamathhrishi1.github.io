@@ -29,7 +29,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 <p style="text-align:justify">
 The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image ,such as ones with a bartender , people taking a drink and different shades of furnitures. 
 <p float="center">
-<img src="" width="200" height="150"/> 
+<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/bar_0439.jpg?raw=true" width="200" height="150"/> 
 </p>
  
 The second image could be at a bar , but looks more like a fancy bakery or deli with only signal being the high chairs.  
