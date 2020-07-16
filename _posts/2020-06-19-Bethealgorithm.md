@@ -67,7 +67,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 <p float="center">
   <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/LOL3.png?raw=true" width="200" height="150" />
   <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/LOL4.png?raw=true" width="200" height="150"/> 
-  <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/LOL5.png?raw=true width="200" height="150"/>
+  <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/LOL5.png?raw=true" width="200" height="150"/>
 </p>
   
   
