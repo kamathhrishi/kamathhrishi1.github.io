@@ -1,5 +1,5 @@
 ---
-title:  "Machine Learning-Learning to predict classes not seen during training"
+title:  "Learning to predict classes not seen during training (Machine Learning)"
 layout: posts
 ---
 
