@@ -16,7 +16,7 @@ For , example from a dataset consisting of labelled pairs of image/label pairs w
 
 <h1>Object Detection</h1>
 
-<img src="https://www.arunponnusamy.com/images/yolo-object-detection-opencv-python/yolo-object-detection.jpg"></img>
+<img src="https://www.arunponnusamy.com/images/yolo-object-detection-opencv-python/yolo-object-detection.jpg">
 
 <p style="text-align:justify">Object detection is the task of not only classifiying instances of given class but also specifying its bounding box location (task called localization). Annotating 
 images with bounding boxes are more expensive as compared to anotating a single label for a image as in case for object classification. So instead we use a dataset consisting a pair of image/labels and train a classifier on it and use it to annotate bounding boxes for object detection. </p>
