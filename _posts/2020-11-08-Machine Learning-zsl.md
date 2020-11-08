@@ -3,8 +3,8 @@ title:  "Machine Learning-Learning to predict classes not seen during training"
 layout: posts
 ---
 
-<p style="text-align:justify">In conventional machine learning we train an algorithm on data/classes pairs (supervised learning) or train an algorithm only on raw data(Unsupervised learning) and make predictions. But , can we possible train an algorihtm to make the right predictions on class of data its never seen before.
-It is quite possible , the specific technique is called zero shot learning.</p>
+<p style="text-align:justify">In conventional machine learning we train an algorithm on data/classes pairs (supervised learning) or train an algorithm only on raw data(Unsupervised learning) and make predictions. But , can we possible train an algorihtm to make the right predictions on class of data its never seen before?
+Quite possible , the specific technique is called zero shot learning.</p>
 
 <p>In this blogpost I would like to cover what zero shot learning is , its working and limitations.</p>
 
