@@ -3,7 +3,7 @@ title:  "Learning to predict classes not seen during training (Machine Learning)
 layout: posts
 ---
 
-<p style="text-align:justify">In conventional machine learning we train an algorithm on data/classes pairs (supervised learning) or train an algorithm only on raw data(Unsupervised learning) and make predictions. But , can we possible train an algorihtm to make the right predictions on class of data its never seen before?
+<p style="text-align:justify">In conventional machine learning we train an algorithm on data/classes pairs (supervised learning) or only on raw data( Unsupervised learning) and make predictions. But , can we possible train an algoritm to make the right predictions on class of data its never seen before?
 Quite possible , the specific technique is called zero shot learning.</p>
 
 <p>In this blogpost I would like to cover what zero shot learning (ZSL) is , its working and limitations.</p>
@@ -14,7 +14,7 @@ Quite possible , the specific technique is called zero shot learning.</p>
 
 <br />
 
-<p style="text-align:justify">ZSL is a type of learning method that allows to predict classes the algorithm has not seen during training time. ZSL cannot be done directly on just image/label pairs , they require an intermediate that helps algorithms relate images to classes. Lets call these intermediates as attributes. These attributes could be word vectors of the class , a sentance description of the class or a vector with description of the class. So in ZSL we learn to go from image to attributes and then attributes to classes. We learn the relationship from a given set of classes for which we have the relevant image-attribute pairs. In this blogpost I would like to focus on ZSL that uses a vector description of a given class. Note that its quite possible for indivodual images to have their own attributes rather than class attributes.
+<p style="text-align:justify">ZSL is a type of learning method that allows to predict classes the algorithm has not seen during training time. ZSL cannot be done directly on just image/label pairs , they require an intermediate that helps algorithms relate images to classes. Lets call these intermediates as attributes. These attributes could be word vectors,sentance or a vector with description of the class. The relationship between data and attributes are learnt from the dataset by a machine learning model for which we have pairs of data and their corresponding attributes and labels. At test time , the model predicts attributes for a given datapoint. From the attributes we further find the class the attributes correspond to. In this blogpost I would like to focus on ZSL that uses a vector description of a given class. Note that its quite possible for indivodual images to have their own attributes rather than class attributes.
   
 <br />
 <br />
