@@ -17,7 +17,9 @@ Quite possible , the specific technique is called zero shot learning.</p>
 <p style="text-align:justify">ZSL is a type of learning method that allows to predict classes the algorithm has not seen during training time. ZSL cannot be done directly on just image/label pairs , they require an intermediate that helps algorithms relate images to classes. Lets call these intermediates as attributes. These attributes could be word vectors of the class , a sentance description of the class or a vector with description of the class. So in ZSL we learn to go from image to attributes and then attributes to classes. We learn the relationship from a given set of classes for which we have the relevant image-attribute pairs. In this blogpost I would like to focus on ZSL that uses a vector description of a given class. 
   
 <br />
+<br />
 <img src="https://www.ecse.rpi.edu/~cvrl/database/Attribute_Dataset_Files/apascal.png">
+<br />
 <br />
 
 <p style="text-align:justify">A vector describing a given class consists of each point in the vector describing a particular feature. A binary number of 1 on the 1st position might describe that its a brown animal , 2nd position describing if its associated with water with as many attributes as possible describing a class. Attributes could be binary or continious with value denoting the strength of each given attribute.The more attributes , the finer detail it could learn about a given class but also requires more data to learn the relevant relationships.The network uses the seen classes to learn relation between images and attributes or other information such as human gaze , word embeddings or whatever information that could be related between classes and images. Based on what the network learns it could be further mapped to the objects and attributes.</p>
