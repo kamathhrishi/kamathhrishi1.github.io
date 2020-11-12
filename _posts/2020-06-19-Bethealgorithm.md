@@ -121,14 +121,13 @@ The only strong signal being the high chair , the images of bottles are too smal
 <p style="text-align:justify">I would like to thank my friend Kavin Kumar for reviewing and helping me improve this article</p>
 
 <h3>References</h3>
-<a href="https://www.google.com/search?client=safari&rls=en&q=1.+Chiyuan+Zhang,+Samy+Bengio,+Moritz+Hardt,+Benjamin+Recht,+Oriol+Vinyals+,+%22Understanding+deep+learning+requires+rethinking+generalization%22&ie=UTF-8&oe=UTF-8"><p id="ref1" style="text-align:justify">
-1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals , "Understanding deep learning requires rethinking generalization" 
+<p id="ref1" style="text-align:justify">
+1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals ,<a href="https://www.google.com/search?client=safari&rls=en&q=1.+Chiyuan+Zhang,+Samy+Bengio,+Moritz+Hardt,+Benjamin+Recht,+Oriol+Vinyals+,+%22Understanding+deep+learning+requires+rethinking+generalization%22&ie=UTF-8&oe=UTF-8">"Understanding deep learning requires rethinking generalization"</p> 
 </p></a>
-<a href="https://ieeexplore.ieee.org/document/5206537"><p id="ref2" style="text-align:justify">
-2. A. Quattoni, and A.Torralba. Recognizing Indoor Scenes. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009
+<p id="ref2" style="text-align:justify">
+2. A. Quattoni, and A.Torralba.<a href="https://ieeexplore.ieee.org/document/5206537">Recognizing Indoor Scenes</a>. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009
 </p></a>
-<a href="https://dl.acm.org/doi/10.1145/3065386">
 <p id="ref3" style="text-align:justify">
-3. Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2017-05-24). "ImageNet classification with deep convolutional neural networks". Communications of the ACM. 60 (6): 84–90. doi:10.1145/3065386. ISSN 0001-0782.
+3. Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2017-05-24).<a href="https://ieeexplore.ieee.org/document/5206537">"ImageNet classification with deep convolutional neural networks"</a>. Communications of the ACM. 60 (6): 84–90. doi:10.1145/3065386. ISSN 0001-0782.
 </p></a>
 
