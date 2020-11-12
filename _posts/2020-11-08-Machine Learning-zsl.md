@@ -10,6 +10,7 @@ Quite possible , the specific technique is called zero shot learning.</p>
 
 <center>
 <b>Image Credit:<a href="https://www.computer.org/csdl/journal/tp/2016/07/07293699/13rRUx0xPoh">Label-Embedding for Image Classification</a></b>
+<br />
 <img src="https://csdl-images.computer.org/trans/tp/2016/07/figures/akata1-2487986.gif">
 </center>
 
@@ -19,9 +20,11 @@ Quite possible , the specific technique is called zero shot learning.</p>
 
 <center>
 <b>Image Credit:<a href="https://www.ecse.rpi.edu/~cvrl/database/AttributeDataset.html">Attributes Dataaset</a></b>
-<img src="https://www.ecse.rpi.edu/~cvrl/database/Attribute_Dataset_Files/apascal.png">
 <br />
+<img src="https://www.ecse.rpi.edu/~cvrl/database/Attribute_Dataset_Files/apascal.png">
 </center>
+
+<br />
 
 <p style="text-align:justify">A vector describing a given class consists of each point in the vector describing a particular feature. A binary number of 1 on the 1st position might describe that its a brown animal , 2nd position describing if its associated with water with as many attributes as possible describing a class. Attributes could be binary or continious with value denoting the strength of each given attribute.The more attributes , the finer detail it could learn about a given class but also requires more data to learn the relevant relationships.The network uses the seen classes to learn relation between images and attributes or other information such as human gaze , word embeddings or whatever information that could be related between classes and images. Based on what the network learns it could be further mapped to the objects and attributes.</p>
 
