@@ -13,6 +13,7 @@ Quite possible , the specific technique is called zero shot learning.</p>
 <center>
 <b>Image Credit:<a href="https://www.computer.org/csdl/journal/tp/2016/07/07293699/13rRUx0xPoh">Label-Embedding for Image Classification</a></b>
 <br />
+<br />
 <img src="https://csdl-images.computer.org/trans/tp/2016/07/figures/akata1-2487986.gif">
 </center>
 
@@ -24,6 +25,7 @@ Quite possible , the specific technique is called zero shot learning.</p>
 
 <center>
 <b>Image Credit:<a href="https://www.ecse.rpi.edu/~cvrl/database/AttributeDataset.html">Attributes Dataaset</a></b>
+<br />
 <br />
 <img src="https://www.ecse.rpi.edu/~cvrl/database/Attribute_Dataset_Files/apascal.png">
 </center>
