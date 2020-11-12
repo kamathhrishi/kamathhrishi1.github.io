@@ -8,11 +8,15 @@ Quite possible , the specific technique is called zero shot learning.</p>
 
 <p>In this blogpost I would like to cover what zero shot learning (ZSL) is , its working and limitations.</p>
 
+<br />
+
 <center>
 <b>Image Credit:<a href="https://www.computer.org/csdl/journal/tp/2016/07/07293699/13rRUx0xPoh">Label-Embedding for Image Classification</a></b>
 <br />
 <img src="https://csdl-images.computer.org/trans/tp/2016/07/figures/akata1-2487986.gif">
 </center>
+
+<br />
 
 <p style="text-align:justify">ZSL is a type of learning method that allows to predict classes the algorithm has not seen during training time. ZSL cannot be done directly on just image/label pairs , they require an intermediate that helps algorithms relate images to classes. Lets call these intermediates as attributes. These attributes could be word vectors,sentance or a vector with description of the class. The relationship between data and attributes are learnt from the dataset by a machine learning model for which we have pairs of data and their corresponding attributes and labels. At test time , the model predicts attributes for a given datapoint. From the attributes we further find the class the attributes correspond to. In this blogpost I would like to focus on ZSL that uses a vector description of a given class. Note that its quite possible for indivodual images to have their own attributes rather than class attributes.</p>
   
