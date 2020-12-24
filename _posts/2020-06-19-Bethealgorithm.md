@@ -19,7 +19,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 </center>
 <p style="text-align:justify">I would like to take an example of manually reannotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>. While in this post I took an example of Computer Vision task , you can similarly analyze text/speech datasets or environments in Reinforcement Learning.</p>
   
-<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , drinks , bottles , low lit , bar counters , people and some food. Ofcourse not just these individual attributes but in the context. Depending on the label, all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
+<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , cups with drink , bottles , low lit eenvironments , bar counters , people and some food. Ofcourse not just these individual attributes but in the context of them occuring toghether. Depending on the label, all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
 <div>
  
 <p float="center">
