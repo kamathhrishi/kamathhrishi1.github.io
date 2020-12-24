@@ -122,7 +122,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 <h3>References</h3>
 <p id="ref1" style="text-align:justify">
-1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals ,<a href="https://www.google.com/search?client=safari&rls=en&q=1.+Chiyuan+Zhang,+Samy+Bengio,+Moritz+Hardt,+Benjamin+Recht,+Oriol+Vinyals+,+%22Understanding+deep+learning+requires+rethinking+generalization%22&ie=UTF-8&oe=UTF-8">"Understanding deep learning requires rethinking generalization"</p> 
+1. Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals ,<a href="https://www.google.com/search?client=safari&rls=en&q=1.+Chiyuan+Zhang,+Samy+Bengio,+Moritz+Hardt,+Benjamin+Recht,+Oriol+Vinyals+,+%22Understanding+deep+learning+requires+rethinking+generalization%22&ie=UTF-8&oe=UTF-8">"Understanding deep learning requires rethinking generalization"
 </p>
 <p id="ref2" style="text-align:justify">
 2. A. Quattoni, and A.Torralba.<a href="https://ieeexplore.ieee.org/document/5206537">Recognizing Indoor Scenes</a>. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009
