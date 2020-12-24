@@ -9,9 +9,9 @@ summary:  "Manual reannotation is the process of you going through image/text of
 <center>
 <img height="400px" width="600px" src="https://i.stack.imgur.com/bN2iA.png">
 </center>
-<p style="text-align:justify">Its not magic it still needs some correlated patterns to generalize and learn required features. This requires you to more or less understand your training dataset. As the common machine learning phrase goes "Your algorithm is good as your data". Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
- <b>Manual reannotation</b> is the process of you going through image/text of your dataset and understanding what features exactly define this given image. 
- Manually reannotating not only helps <b>remove incorrect labels</b> but also helps <b>understand biases</b> your algorithm could pick up on or even helps you <b>understand neural network predictions</b> to an certain extent. Further it also helps you decide the type of <b>augmentations</b> that could help your algorithm generalize or help you pick up on certain data for the algorithm to make training easier. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.</p>
+<p style="text-align:justify">Its not magic it still needs some correlated patterns to generalize and learn required features. This requires you to more or less understand your training dataset. As the common machine learning phrase goes <i>"Your algorithm is good as your data"</i>. Deep learning models help extract features relevant to given dataset, provided you have enough examples that expose right features.
+ <b>Manual reannotation</b> is the process of going through every image/text of the dataset and understanding what features exactly define a given class. 
+ Manually reannotating not only helps <b>remove incorrect labels</b> but also helps <b>understand biases</b> your algorithm could pick up on or even helps <b>understand neural network predictions</b> to an certain extent. Further it also helps decide the type of <b>augmentations</b> that could help your algorithm generalize or prrovides cues on what additional data could help. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset.</p>
 
 <center>
 
