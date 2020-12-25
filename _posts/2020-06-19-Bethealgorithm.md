@@ -96,8 +96,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 </p>
 <div>
 <center>
-<p style="text-align:justify">In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data. Similarly there were instances where light bluish and green textures were classifed as hospitals rooms as there were images of paramedics with bluish green clothes.</p>
- 
+<p style="text-align:justify">In the above example the bedroom was incorrectly classified as a gameroom which could be explained by the large of number of images of pool tables in gameroom category. This could be solved by the right augmentation of colored images in the dataset with several different textures or simply getting more varied data. Similarly there were instances where light bluish and green textures were classifed as hospitals rooms. This could be explained by the large number of images of paramedics with bluish green clothes in the training dataset.</p>
 
 <h3>Brightness</h3>
 <p style="text-align:justify">Ensure there are enough bright and dark images of for a given class unless being low lit or bright is a feature of a given category. Most low lit images were classified as a bar or were present in top-3 predictions as almost all bar pictures were low lit.</p>
