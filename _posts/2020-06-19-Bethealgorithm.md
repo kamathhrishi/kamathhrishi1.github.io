@@ -5,9 +5,10 @@ mathjax: "true"
 summary:  "Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. Manually reannotating not only helps remove incorrect labels but also helps understand biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier."
 ---
 
-<p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful , powerful enough that they could be trained to memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to learn from input/output pairs for tasks end to end without much preprocessing effort giving us the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
+<p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful , powerful enough that they could be trained to memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to learn from input/output pairs for tasks end to end without much preprocessing effort giving the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
 <center>
 <img height="400px" width="600px" src="https://i.stack.imgur.com/bN2iA.png">
+<p>The above image depicts how an neural network transforms an image into set of features upon training.</p>
 </center>
 <p style="text-align:justify">Deep Learning isn't magic , it still needs some correlated patterns to learn required features and generalize to unseen data. This requires the deep learning practitioner to understand the training dataset. As the common machine learning phrase goes <i>"Your algorithm is good as your data"</i>. Deep learning models help extract features relevant to given dataset, provided there are enough examples that expose right features.
  <b>Manual re-annotation</b> is the process of going through every image/text of the dataset and understanding what features exactly define a given class. 
