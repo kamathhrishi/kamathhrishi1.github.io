@@ -27,6 +27,6 @@ In few shot learning we aim to learn a classifier given there are very few image
 </br>
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/few_shot.png?raw=true">
 </br>
-We could classify our dataset into two categories 1) Support and 2) Query Set. An algorithm is trained on two tasks , first task consisting of images of cats , sheep , pigs. The second task consisting of animals such as dogs , lions and sharks. The test task being duck , chicken and dolphin. The algorithm is trained on the support set and  evaluated on query set. The test task is further evaluated. </p>
+We could classify our dataset into two categories 1) Support and 2) Query Set. An algorithm is trained on two tasks , first task consisting of images of cats , sheep , pigs. The second task consisting of animals such as dogs , lions and sharks. The test task being duck , chicken and dolphin. The algorithm is trained on the support set and  evaluated on query set. The test task is further evaluated on a completely new task that is also N way and K shot , but disjoint from tasks on which the meta learning algorithm was trained on. </p>
 
 
