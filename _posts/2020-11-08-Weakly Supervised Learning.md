@@ -17,10 +17,11 @@ We must also ensure that the algorithm does not overfit to the noisy patterns. T
 </p> 
 
 <h1>General Weakly Supervised Pipeline</h1>
-1. Label Dataset
-2. Use Noise labelled dataset to train classifier
-3. Relabel dataset
-4. Retrain classifier until convergence
+
+1.  Label Dataset 
+2.  Use Noise labelled dataset to train classifier
+3.  Relabel dataset
+4.  Retrain classifier until convergence
 
 <p style="text-align:justify">In this blogpost I would like to introduce weak supervised learning and provide examples of how its done for object detection.</p>
 
@@ -37,7 +38,7 @@ images with bounding boxes are more expensive as compared to anotating a single 
 <p>Localisation</p>
 
 <p style="text-align:justify">There are several ways of leveraging weakly supervised learning to label datasets for segmentation and detection using an existing classifier. Annotating dataset for object 
-detection has these steps  
+detection has these steps </p>
   
 1.  Region Proposal 
 2.  Label regions 
@@ -46,12 +47,12 @@ detection has these steps
 5.  Train Localization network 
 6.  Back to step 2
 
-I would explain these individual components in some detail
+<p style="text-align:justify">I would explain these individual components in some detail
 
-Region selection is done using selective max , sliding windows or edgebox. These regions are labelled by an classifier trained on classification task on classes contained in the image.
-The classifier is leveraged to label the regions. There are several stratergies to leverage to 
+<p style="text-align:justify">Region selection is done using selective max , sliding windows or edgebox. These regions are labelled by an classifier trained on classification task on classes contained in the image.
+The classifier is leveraged to label the regions. From the labelled regions the , the appropriate regions are selected for a given class. There are several stratergies to do so 1) choosing the region with maximum probability for given class 2) Choosing regions above certain probability. When approach 2 is choosen the regions can further be combined using some criteria such as intersection or distance between the regions. The dataset is further labelled. This labelled dataset is used to train a localization network learns to predict bounding boxes given an image. After the network is trained to convergence the dataset is relabelled using labels from localized network. This process is repeated for several iterations until convergence criteria is met. </p>
 
-, but there are some approaches that perform 2-5 end to end which I will save for another blogpost. 
+<p style="text-align:justify">The above motivates an naive approach of attaining weakly supervised learning , there are some approaches that perform 2-5 end to end which I will save for another blogpost. The end to end networks are trained only from classification labels but can also perform localization and detection. </p>
 
-Having motivated weakly supervised learning as a way of labelling data with less difficulty , its still far from use in production system and still an active research area. 
+<p style="text-align:justify">Having motivated weakly supervised learning as a way of labelling data with less difficulty , its still far from use in production system to completely replace supervised learning and still an active research area. Some problems with weakly supervised learning that have been commonly observed are. 
 But , it seems like a promising method for future use. </p>
