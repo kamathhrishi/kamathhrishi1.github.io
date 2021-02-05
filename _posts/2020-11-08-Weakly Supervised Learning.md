@@ -32,25 +32,19 @@ We must also ensure that the algorithm does not overfit to the noisy patterns. T
 <p style="text-align:justify">Object detection is the task of not only classifiying instances of given class but also specifying its bounding box location (task called localization). Annotating 
 images with bounding boxes are more expensive as compared to anotating a single label for a image as in case for object classification. So instead we use a dataset consisting a pair of image/labels and train a classifier on it and use it to annotate bounding boxes for object detection. </p>
 
-<p>Visual Cues for Segmentation and Localisation</p>
-<p>Segmentation</p>
-
-<p>Localisation</p>
-
-<p style="text-align:justify">There are several ways of leveraging weakly supervised learning to label datasets for segmentation and detection using an existing classifier. Annotating dataset for object 
-detection has these steps </p>
+<p style="text-align:justify">There are several ways of leveraging weakly supervised learning to label datasets for segmentation and detection using an existing classifier. Annotating dataset for object detection has these steps </p>
   
 1.  Region Proposal 
 2.  Label regions 
 3.  Region Selection 
 4.  Label dataset 
 5.  Train Localization network 
-6.  Back to step 2
+6.  Retrain localization network (Back to step 2)
 
 <p style="text-align:justify">I would explain these individual components in some detail
 
-<p style="text-align:justify">Region selection is done using selective max , sliding windows or edgebox. These regions are labelled by an classifier trained on classification task on classes contained in the image.
-The classifier is leveraged to label the regions. From the labelled regions the , the appropriate regions are selected for a given class. There are several stratergies to do so 1) choosing the region with maximum probability for given class 2) Choosing regions above certain probability. When approach 2 is choosen the regions can further be combined using some criteria such as intersection or distance between the regions. The dataset is further labelled. This labelled dataset is used to train a localization network learns to predict bounding boxes given an image. After the network is trained to convergence the dataset is relabelled using labels from localized network. This process is repeated for several iterations until convergence criteria is met. </p>
+<p style="text-align:justify"><b>Region selection</b> is done using selective max , sliding windows or edgebox. These regions are labelled by an classifier trained on classification task on classes contained in the image.
+  The classifier is leveraged to <b>label the regions</b>. From the labelled regions the , the appropriate regions are selected for a given class. There are several stratergies to do so 1) choosing the region with maximum probability for given class 2) Choosing regions above certain probability. When approach 2 is choosen the regions can further be combined using some criteria such as intersection or distance between the regions. The dataset is further labelled. This labelled dataset is used to <b>train a localization network</b> learns to predict bounding boxes given an image. After the network is trained to convergence the <b>dataset is relabelled</b> using labels from localized network. This process is repeated for several iterations until convergence criteria is met. </p>
 
 <p style="text-align:justify">The above motivates an naive approach of attaining weakly supervised learning , there are some approaches that perform 2-5 end to end which I will save for another blogpost. The end to end networks are trained only from classification labels but can also perform localization and detection. </p>
 
