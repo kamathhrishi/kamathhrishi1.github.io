@@ -11,7 +11,7 @@ So we need to be able to have the algorithm learn in a way that it is ensured fe
 For example , you could pair tasks of language generation , depth estimation , skill learning , etc. To make it more clear how meta learning is put into practice I will use the example of few shot learning. </p>
 
 <p style="text-align:justify">I would like to describe a simple meta learning algorithm called MAML (Model Agnostic Meta Learning).</p>
-<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/maml.png?raw=true"></img>
+<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/maml.png?raw=true">
 
 <p style="text-align:justify">In MAML an algorithm is trained for a set of tasks like regular supervised learning. 
 The performance of model is evaluated on test data. Based on the error on test data the model is updated. Notice that the model is trained several epochs on training data but update is performed once on test data.
@@ -25,7 +25,7 @@ Simple Example
 
 In few shot learning we aim to learn a classifier given there are very few images per class , even when we have as little as 1 image. For the purpose we divide the dataset into meta 
 
-<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/few_shot.png?raw=true"></img>
+<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/few_shot.png?raw=true">
 
 We could classify our dataset into two categories 1) Support and 2) Query Set. An algorithm is trained on two tasks , first task consisting of images of cats , sheep , pigs. The second task consisting of animals such as dogs , lions and sharks. The test task being duck , chicken and dolphin. The algorithm is trained on the support set and  evaluated on query set. The test task is further evaluated. </p>
 
