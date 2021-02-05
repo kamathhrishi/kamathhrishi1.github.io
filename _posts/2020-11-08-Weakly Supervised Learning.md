@@ -37,7 +37,8 @@ images with bounding boxes are more expensive as compared to anotating a single 
 <p>Localisation</p>
 
 <p style="text-align:justify">There are several ways of leveraging weakly supervised learning to label datasets for segmentation and detection using an existing classifier. Annotating dataset for object 
-detection has these steps 
+detection has these steps  
+  
 1.  Region Proposal 
 2.  Label regions 
 3.  Region Selection 
