@@ -1,5 +1,5 @@
 ---
-title:  "Meta Learning with MAML (Not yet completed)"
+title:  "Meta Learning with MAML"
 layout: posts
 ---
 
