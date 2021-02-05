@@ -21,11 +21,10 @@ Isn’t this against the fundamental machine learning rule of not training on yo
 At meta-test , we train the algorithm on a new task and evaluate the test accuracy on the task. 
 But , do not update the model parameters based on the error. </p>
 
-<p style="text-align:justify">Lets take an simple example of few shot learning. 
+<p style="text-align:justify">Lets take an simple example of few shot learning and how MAML is applied. 
 
-Simple Example
 
-In few shot learning we aim to learn a classifier given there are very few images per class , even when we have as little as 1 image. For the purpose we divide the dataset into meta 
+In few shot learning we aim to learn a classifier given there are very few images per class , even when we have as little as 1 image. For the purpose we divide the dataset into meta train ,meta test dataset with tasks held out for evaluating performance of meta learning algorithms. Few shot learning is commonly classified as N way K shot learning. That is N being the number of classes and K being number of instances of classes. The below is an example of 3 way 2 shot learning. 
 </br>
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/few_shot.png?raw=true">
 </br>
