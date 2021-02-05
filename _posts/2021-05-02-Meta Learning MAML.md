@@ -23,12 +23,12 @@ But , do not update the model parameters based on the error. If you are familiar
 
 <p style="text-align:justify">Lets take an simple example of few shot learning and how MAML is applied. 
 
-In few shot learning we aim to learn a classifier given there are very few images per class , even when we have as little as 1 image. For the purpose we divide the dataset into meta train ,meta test dataset with tasks held out for evaluating performance of meta learning algorithms. Few shot learning is commonly classified as N way K shot learning. That is N being the number of classes and K being number of instances of classes. The below is an example of 3 way 2 shot learning. 
+In few shot learning we aim to learn a classifier given there are very few images per class , even when we have as little as 1 image. For the purpose we divide the dataset into meta train ,meta test dataset with tasks held out for evaluating performance of meta learning algorithms. Few shot learning is commonly classified as N way K shot learning. That is N being the number of classes and K being number of instances of classes. The below is an example of 3 way 2 shot learning. We don't just have 3 images of each class in the case. But , we are dividing a dataset into a set of tasks that are 3 way 2 shot. Just Like regular supervised learning learns better with more data , the model learns better with more tasks. But , in few shot learning we have little data per class and lots of classes. Regular supervised learning would overfit if trained on datasets relavent for few shot learning. 
 <br>
 <br>
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/few_shot.png?raw=true">
 <br>
 <br>
-We could classify our dataset into two categories 1) Support and 2) Query Set. An algorithm is trained on two tasks , first task consisting of images of cats , sheep , pigs. The second task consisting of animals such as dogs , lions and sharks. The test task being duck , chicken and dolphin. The algorithm is trained on the support set and  evaluated on query set. The test task is further evaluated on a completely new task that is also N way and K shot , but disjoint from tasks on which the meta learning algorithm was trained on. </p>
+We could classify our dataset into two categories 1) Support and 2) Query Set. An algorithm is trained on two tasks , first task consisting of images of cats , sheep , pigs. The second task consisting of animals such as dogs , lions and sharks. The test task being duck , chicken and dolphin. The algorithm is trained on the support set and evaluated on query set. The support set is used to update the task specific parameters. The loss on test set is used to update the meta parameters. Further , the performance of meta learner is evaluated on test tasks. The test tasks are N way and K shot , but disjoint from tasks on which the meta learning algorithm was trained on. </p>
 
 
