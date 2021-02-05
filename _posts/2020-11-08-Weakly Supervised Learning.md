@@ -1,5 +1,5 @@
 ---
-title:  "Introduction to Weakly Supervised Learning"
+title:  "Introduction to Weakly Supervised Learning (In Progress , putting it in public is a promise :) )"
 layout: posts
 ---
 
