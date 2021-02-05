@@ -18,8 +18,8 @@ For example , you could pair tasks of language generation , depth estimation , s
 <p style="text-align:justify">In MAML an algorithm is trained for a set of tasks like regular supervised learning. 
 The performance of model is evaluated on test data. Based on the error on test data the model is updated. Notice that the model is trained several epochs on training data but update is performed once on test data.
 Isn’t this against the fundamental machine learning rule of not training on your test data? Remember here the focus is not to test the algorithm performance for a given task , but to teach an algorithm to learn as well as possible to learn for newer tasks. 
-At meta-test , we train the algorithm on a new task and evaluate the test accuracy on the task. 
-But , do not update the model parameters based on the error. </p>
+At meta-test , we train the algorithm on a new task and evaluate the test accuracy on the task. theta is the meta learning parameters and theta' is the task specific parameters. It is the update step over the meta-test that forces the model to learn more general parameters rather than just task specific parameters. 
+But , do not update the model parameters based on the error. If you are familiar with recurrent neural networks , a good analogy would be that the meta learner parameters are like the hidden states across time-steps. Here the meta parameters are like the shared parameters across tasks. The meta parameters are trained on a given task and updated. These parameters are the initial parameters for the next task. </p>
 
 <p style="text-align:justify">Lets take an simple example of few shot learning and how MAML is applied. 
 
