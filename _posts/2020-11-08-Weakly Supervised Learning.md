@@ -17,7 +17,6 @@ We must also ensure that the algorithm does not overfit to the noisy patterns. T
 </p> 
 
 <h1>General Weakly Supervised Pipeline</h1>
-
 1. Label Dataset
 2. Use Noise labelled dataset to train classifier
 3. Relabel dataset
@@ -39,12 +38,12 @@ images with bounding boxes are more expensive as compared to anotating a single 
 
 <p style="text-align:justify">There are several ways of leveraging weakly supervised learning to label datasets for segmentation and detection using an existing classifier. Annotating dataset for object 
 detection has these steps 
-1. Region Proposal 
-2. Label regions 
-3. Region Selection 
-4. Label dataset 
-5. Train Localization network 
-6. Back to step 2
+1.  Region Proposal 
+2.  Label regions 
+3.  Region Selection 
+4.  Label dataset 
+5.  Train Localization network 
+6.  Back to step 2
 
 I would explain these individual components in some detail
 
