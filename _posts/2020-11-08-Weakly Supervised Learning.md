@@ -48,5 +48,4 @@ images with bounding boxes are more expensive as compared to anotating a single 
 
 <p style="text-align:justify">The above motivates an naive approach of attaining weakly supervised learning , there are some approaches that perform 2-5 end to end which I will save for another blogpost. The end to end networks are trained only from classification labels but can also perform localization and detection. </p>
 
-<p style="text-align:justify">Having motivated weakly supervised learning as a way of labelling data with less difficulty , its still far from use in production system to completely replace supervised learning and still an active research area. Some problems with weakly supervised learning that have been commonly observed are. 
-But , it seems like a promising method for future use when there is little data available. </p>
+<p style="text-align:justify">Having motivated weakly supervised learning as a way of labelling data with less difficulty , its still far from use in production system to completely replace supervised learning and still an active research area. Some common issues being that it labels all closeby objects into a single boundig box or is biased towards the noise by the classifier.</p>
