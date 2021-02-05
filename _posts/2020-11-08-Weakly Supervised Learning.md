@@ -37,8 +37,14 @@ images with bounding boxes are more expensive as compared to anotating a single 
 
 <p>Localisation</p>
 
-<p>There are several ways of leveraging weakly supervised learning to label datasets for segmentation and detection using an existing classifier. Annotating dataset for object 
-detection has three steps 1)Region Proposal 2)Label regions 3)Region Selection 4)Label dataset 5)Train Localization network 6)Back to step 2). 
+<p style="text-align:justify">There are several ways of leveraging weakly supervised learning to label datasets for segmentation and detection using an existing classifier. Annotating dataset for object 
+detection has these steps 
+1. Region Proposal 
+2. Label regions 
+3. Region Selection 
+4. Label dataset 
+5. Train Localization network 
+6. Back to step 2
 
 I would explain these individual components in some detail
 
@@ -48,4 +54,4 @@ The classifier is leveraged to label the regions. There are several stratergies 
 , but there are some approaches that perform 2-5 end to end which I will save for another blogpost. 
 
 Having motivated weakly supervised learning as a way of labelling data with less difficulty , its still far from use in production system and still an active research area. 
-But , it seems like a promising method for future use. 
+But , it seems like a promising method for future use. </p>
