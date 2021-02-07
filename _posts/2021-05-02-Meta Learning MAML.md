@@ -7,7 +7,7 @@ layout: posts
 This is typically not how learning should occur. Humans use prior knowledge in some task to be able to generalise to another task with little examples of the new task. 
 We should be able to learn from scratch even when the dataset has few examples per class. Training on several tasks with little images leads to substantial overfitting. 
 So we need to be able to have the algorithm learn in a way that it is ensured features from one task generalise to another. Meta learning is not limited just to image classification but to any sequence of task. 
-For example , you could pair tasks of language generation , depth estimation , skill learning or any task solved in conventional machine learning. To make it more clear how meta learning is put into practice I will use the example of few shot learning. </p>
+For example , you could pair tasks of language generation , depth estimation , skill learning or any task solved in conventional machine learning.</p>
 
 <p style="text-align:justify">I would like to describe a simple meta learning algorithm called MAML (Model Agnostic Meta Learning) [1] . MAML is an optimization based approach which influences the way model learns based on performance on test set. It forms the basis for most standard algorithms for meta learning because its easy to incorporate into any task due it its simplicity and is model agnostic. Other popular approaches are model and metric based such as relation , Siamese networks (metric), meta learner and NMT.</p>
 <br>
@@ -20,7 +20,7 @@ Isn’t this against the fundamental machine learning rule of not training on yo
 At meta-test , we train the algorithm on a new task and evaluate the test accuracy on the task. theta is the meta learning parameters and theta' is the task specific parameters. It is the update step over the meta-test that forces the model to learn more general parameters rather than just task specific parameters. 
 But , do not update the model parameters based on the error. If you are familiar with recurrent neural networks , a good analogy would be that the meta learner parameters are like the hidden states across time-steps. meta parameters are like the shared parameters across tasks. The meta parameters are trained on a given task and updated. These parameters are the initial parameters for the next task. </p>
 
-<p style="text-align:justify">Lets take an simple example of few shot learning and how MAML is applied. 
+<p style="text-align:justify"> To make it more clear how meta learning with MAML is put into practice I will use the example of few shot learning. 
 
 In few shot learning we aim to learn a classifier given there are very few images per class , even when we have as little as 1 image. For the purpose we divide the dataset into meta train ,meta test dataset with tasks held out for evaluating performance of meta learning algorithms. Few shot learning is commonly classified as N way K shot learning. That is N being the number of classes and K being number of instances of classes. The below is an example of 3 way 2 shot learning. We don't just have 3 images of each class in the case. But , we are dividing a dataset into a set of tasks that are 3 way 2 shot. Just Like regular supervised learning learns better with more data , the model learns better with more tasks. But , in few shot learning we have little data per class and lots of classes. Regular supervised learning would overfit if trained on datasets relavent for few shot learning. 
 <br>
