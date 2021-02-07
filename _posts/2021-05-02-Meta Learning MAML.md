@@ -28,7 +28,7 @@ In few shot learning we aim to learn a classifier given there are very few image
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/few_shot.png?raw=true">
 <br>
 <br>
-We could classify our dataset into two categories 1) Support and 2) Query Set. An algorithm is trained on two tasks , first task consisting of images of cats , sheep , pigs. The second task consisting of animals such as dogs , lions and sharks. The test task being duck , chicken and dolphin. The algorithm is trained on the support set and evaluated on query set. The support set is used to update the task specific parameters. The loss on test set is used to update the meta parameters. Further , the performance of meta learner is evaluated on test tasks. The test tasks are N way and K shot , but disjoint from tasks on which the meta learning algorithm was trained on. </p>
+We divide the dataset into two splits 1) Support and 2) Query Set. An algorithm is trained on two tasks , first task consisting of images of cats , sheep , pigs. The second task consisting of animals such as dogs , lions and sharks. The test task being duck , chicken and dolphin. The algorithm is trained on the support set and evaluated on query set. The support set is used to update the task specific parameters. The loss on test set is used to update the meta parameters. Further , the performance of meta learner is evaluated on test tasks. The test tasks are N way and K shot , but disjoint from tasks on which the meta learning algorithm was trained on. </p>
 
 <h2>References</h2>
 1. Chelsea Finn, Pieter Abbeel, Sergey Levine , <i>Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks</i>
