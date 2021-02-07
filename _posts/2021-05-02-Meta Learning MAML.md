@@ -3,8 +3,8 @@ title:  "Meta Learning with MAML"
 layout: posts
 ---
 
-<p style="text-align:justify">In supervised learning we learn a single task from several thousands of examples for a given class in a task from scratch or using transfer learning. 
-These tasks usually require lot of data to train a network from scratch. But , this is not how you would ideally envision learning to be. For example , humans use prior knowledge in some task to be able to generalise to another task with little examples of the new task. 
+<p style="text-align:justify">Training neural networks for a single task requires several thousands of examples for a each class when training a model from scratch.
+This is typically not how learning should occur. Humans use prior knowledge in some task to be able to generalise to another task with little examples of the new task. 
 Although the conventional practice is to initialise neural networks to train on Imagenet pertained models. Training on Imagenet some or the way uses thousands of images per category.
 We should be able to learn from scratch even when the dataset has few examples per class. Training on several tasks with little images leads to substantial overfitting. 
 So we need to be able to have the algorithm learn in a way that it is ensured features from one task generalise to another. Meta learning is not limited just to image classification but to any sequence of task. 
