@@ -5,7 +5,6 @@ layout: posts
 
 <p style="text-align:justify">Training neural networks for a single task requires several thousands of examples for a each class when training a model from scratch.
 This is typically not how learning should occur. Humans use prior knowledge in some task to be able to generalise to another task with little examples of the new task. 
-Although the conventional practice is to initialise neural networks to train on Imagenet pertained models. Training on Imagenet some or the way uses thousands of images per category.
 We should be able to learn from scratch even when the dataset has few examples per class. Training on several tasks with little images leads to substantial overfitting. 
 So we need to be able to have the algorithm learn in a way that it is ensured features from one task generalise to another. Meta learning is not limited just to image classification but to any sequence of task. 
 For example , you could pair tasks of language generation , depth estimation , skill learning or any task solved in conventional machine learning. To make it more clear how meta learning is put into practice I will use the example of few shot learning. </p>
