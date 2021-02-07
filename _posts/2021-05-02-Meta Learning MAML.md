@@ -9,7 +9,7 @@ We should be able to learn from scratch even when the dataset has few examples p
 So we need to be able to have the algorithm learn in a way that it is ensured features from one task generalise to another. Meta learning is not limited just to image classification but to any sequence of task. 
 For example , you could pair tasks of language generation , depth estimation , skill learning or any task solved in conventional machine learning. To make it more clear how meta learning is put into practice I will use the example of few shot learning. </p>
 
-<p style="text-align:justify">I would like to describe a simple meta learning algorithm called MAML (Model Agnostic Meta Learning) [1] . MAML is an optimization based approach which influences the way algorithm learns based on how the weights of neural network are updated. It forms the basis for most standard algorithms for meta learning because its easy to incorporate into any task due it its simplicity and is model agnostic. Other popular approaches are model and metric based such as relation , Siamese networks (metric), meta learner and NMT.</p>
+<p style="text-align:justify">I would like to describe a simple meta learning algorithm called MAML (Model Agnostic Meta Learning) [1] . MAML is an optimization based approach which influences the way model learns based on performance on test set. It forms the basis for most standard algorithms for meta learning because its easy to incorporate into any task due it its simplicity and is model agnostic. Other popular approaches are model and metric based such as relation , Siamese networks (metric), meta learner and NMT.</p>
 <br>
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/maml.png?raw=true">
 <br>
