@@ -10,6 +10,7 @@ With the use of package GreyNSights you can leverage pandas too analyze and tran
 client-server implementation. The data owner hosts the dataset which begins a server that listens in to requests. The data analyst connects to the dataowner 
 using client scripts of GreyNSights and can interactively query the dataset remotely. </p>
 
+<h1> Design Principles </h1>
 <h1> Simple Example</h1>
 
 <h2> Data Owner</h2>
@@ -72,3 +73,25 @@ df['carrots_eaten'].sum().get()
 (df['carrots_eaten']>70).sum().get()
 ```
 
+<h1> Federated Analytics</h1>
+
+<h2>Dataowners</h1>
+
+
+``` python 
+import pandas
+from GreyNsights.host import Dataset, DataOwner
+from GreyNsights.config import Config
+
+dataset = pandas.read_csv("week_data.csv")
+
+owner = DataOwner("Bob", port=65444, host="127.0.0.1")
+
+config = Config(owner)
+config.load("test_config.yaml")
+
+dataset = Dataset(owner, "Sample Data1", dataset, config, whitelist={"Alice": None})
+dataset.listen()
+``` 
+
+<h2>Analyst</h2>
