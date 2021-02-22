@@ -5,7 +5,7 @@ mathjax: "true"
 ---
 
 <p style="text-align:justify">Conventionally pandas allows you to analyze datasets that are present locally on your PC , that is when you are given access to a given dataset. 
-But , there are valuable and informative datasets that consists of Personally Identifiable Information (PII) that you wont be given access to.
+But , there are valuable and informative datasets that consists of Personally Identifiable Information (PII) that you wont be access to directly query it.
 With the use of package GreyNSights you can leverage pandas too analyze and transform datasets that are sensitive. GreyNSights is stricly based on 
 client-server implementation. The data owner hosts the dataset which begins a server that listens in to requests. The data analyst connects to the dataowner 
 using client scripts of GreyNSights and can interactively query the dataset remotely. </p>
