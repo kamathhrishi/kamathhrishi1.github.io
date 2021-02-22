@@ -11,6 +11,8 @@ client-server implementation. The data owner hosts the dataset which begins a se
 using client scripts of GreyNSights and can interactively query the dataset remotely. </p>
 
 <h1> Design Principles </h1>
+Some other approaches for analyzing and querying privacy sensitive datasets are uses anonymization techniques to obfusticate or remove PII's and then share the dataset. While , this seems like a promising approach. It could lead to linkage attacks. Analysts could reidentify anonymized data rows by linked it with other data sources. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>. The netflix dataset was anonymized and posted publicly, yet identity of the users could be recovered by linking with IMDB publicly available data. Using anonymization techniques are not the safest method of attaining privacy. This motivates the idea of being able to use PII's but such that the rows of PII's are not directly see by the analyst. Further , analysts could also recover values of the individual rows using differencing attacks where they perform two queries , say one query where the calculate a sum with a given datapoint and another query without a given datapoint. Subtracting the values of both gives the value of a sensitive row. This attack is known as differencing attack. It could be mitigated by instead returning differentially private answers to queries rather than exact answers to queries. 
+
 <h1> Simple Example</h1>
 
 <h2> Data Owner</h2>
