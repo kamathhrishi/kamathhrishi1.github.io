@@ -80,6 +80,7 @@ df['carrots_eaten'].sum().get()
 <p style="text-align:justify">You can create several different data owners with different names and ports like the below scripts. </p>
 
 ```python 
+
 import pandas
 from GreyNsights.host import Dataset, DataOwner
 from GreyNsights.config import Config
@@ -93,6 +94,7 @@ config.load("test_config.yaml")
 
 dataset = Dataset(owner, "Sample Data1", dataset, config, whitelist={"Alice": None})
 dataset.listen()
+
 ``` 
 
 <h2>Analyst</h2>
