@@ -40,30 +40,50 @@ dataset.listen()
 
 <h2>Analyst</h2>
 
+The below script allows the analyst to connect to the remote datasource. 
+
 ``` python 
 import GreyNsights
 from GreyNsights.analyst import DataWorker, DataSource, Pointer, Command, Analyst
 from GreyNsights.frameworks import framework
 
+"""The analyst identity. Currently just a placeholder and non-functional. But , in future could allow analyst to identify 
+   with a x.509 certificate"""
+   
 identity = Analyst("Alice", port=65441, host="127.0.0.1")
+
+#The details of remote datasource
 worker = DataWorker(port=6544, host="127.0.0.1")
+
+#The dataset hosted by remote datasource. Currently supports only 1 datasource. 
 dataset = DataSource(identity,worker, "Sample Data")
+
+#Initialization pointer
 dataset_pt = dataset.init_pointer()
 
 frameworks = framework()
+
+#Initialize GreyNSights version of Pandas
 pandas = frameworks.pandas
 
-df = pandas.DataFrame(dataset_pt)
 ``` 
 
+Just to depict that the GreyNSights version of Pandas could be used like ordinary Pandas. The dataset is already a dataframe. 
+```
+df = pandas.DataFrame(dataset_pt)
+```
+
+The command displays the columns of dataset
 ``` python
 df.columns 
 ```
 
+Executes describe remotely and gets it when get() is called. Describe is an aggregate query so the analyst is permitted to see the result.
 ``` python
 df.describe().get() 
 ```
 
+Calculates mean
 ``` python
 df['carrots_eaten'].mean().get() 
 ```
