@@ -8,7 +8,11 @@ mathjax: "true"
 But , there are valuable and informative datasets that consists of Personally Identifiable Information (PII) that you wont be able access to directly query it. There are privacy compliances that prevent data from being moved in some industries such as Banking and Healthcare. 
 With the use of package GreyNSights you can leverage pandas to analyze and transform datasets that are sensitive. GreyNSights is stricly based on 
 client-server implementation. The data owner hosts the dataset which begins a server that listens in to requests. The data analyst connects to the dataowner 
-using client scripts of GreyNSights and can interactively query the dataset remotely. </p>
+using client scripts of GreyNSights and can interactively query the dataset remotely.
+
+<b>Repository: </b><a href="https://github.com/kamathhrishi/GreyNSights">Link</a>
+
+</p>
 
 <h1> Design Principles </h1>
 <p style="text-align:justify">Some other approaches for analyzing and querying privacy sensitive datasets are uses anonymization techniques to obfusticate or remove PII's and then share the dataset. While , this seems like a promising approach. It could lead to linkage attacks. Analysts could reidentify anonymized data rows by linked it with other data sources. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>. The netflix dataset was anonymized and posted publicly, yet identity of the users could be recovered by linking with IMDB publicly available data.</p>
