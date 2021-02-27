@@ -11,7 +11,11 @@ client-server implementation. The data owner hosts the dataset which begins a se
 using client scripts of GreyNSights and can interactively query the dataset remotely. With GreyNSights the analyst doesn't have to move the dataset out of their premises and analyst can still be able to analyze the dataset. So its a win-win situation for both. Analyst can now get access to datasets that are otherwise 
 difficult to get and data owner can now maintain privacy of individuals in dataset.</p>
 
+<br/>
+
 <b>Repository: </b><a href="https://github.com/kamathhrishi/GreyNSights">Link</a>
+
+<br/>
 
 <h1> Design Principles </h1>
 <p style="text-align:justify">Some other approaches for analyzing and querying privacy sensitive datasets are uses anonymization techniques to obfusticate or remove PII's and then share the dataset. While , this seems like a promising approach. It could lead to linkage attacks. Analysts could reidentify anonymized data rows by linked it with other data sources. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>. The netflix dataset was anonymized and posted publicly, yet identity of the users could be recovered by linking with IMDB publicly available data.</p>
