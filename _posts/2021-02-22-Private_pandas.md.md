@@ -88,7 +88,7 @@ Executes describe remotely and gets it when get() is called. Describe is an aggr
 df.describe().get() 
 ```
 
-Calculates mean
+Calculates mean , standard deviation and sum. 
 ``` python
 df['carrots_eaten'].mean().get() 
 ```
