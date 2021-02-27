@@ -8,8 +8,8 @@ mathjax: "true"
 But , there are valuable and informative datasets that consists of Personally Identifiable Information (PII) that you wont be able access to directly query it. There are privacy compliances that prevent data from being moved in some industries such as Banking and Healthcare. 
 With the use of package GreyNSights you can leverage pandas to analyze and transform datasets that are sensitive. GreyNSights is stricly based on 
 client-server implementation. The data owner hosts the dataset which begins a server that listens in to requests. The data analyst connects to the dataowner 
-using client scripts of GreyNSights and can interactively query the dataset remotely. With GreyNSights the analyst doesn't have to move the dataset out of their premises and analyst can still be able to analyze the dataset. So its a win-win situation for both. Analyst can now get access to datasets that are otherwise 
-difficult to get and data owner can now maintain privacy of individuals in dataset.</p>
+using client scripts of GreyNSights and can interactively query the dataset remotely. With GreyNSights the data owner doesn't have to move the dataset out of their premises and analyst can still analyze the dataset. So its a win-win situation for both. Analyst can now get access to datasets that are otherwise 
+difficult to get and data owners can now maintain privacy of individuals in dataset.</p>
 
 <br/>
 
