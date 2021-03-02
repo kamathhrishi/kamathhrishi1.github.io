@@ -164,10 +164,10 @@ er = pt["Money spent (euros)"].sum().get()
 
 print(er)
 ```
-When get() is called on the workergroup pointer , Workers communicate with each other and create shares. 
+<p style="text-align:justify">When get() is called on the workergroup pointer , Workers communicate with each other and create shares. 
 These exchanged shares are added by the analyst to obtain the summation of shares. This ensures that the 
 analyst does not look at the individual values of dataowners but gets only the aggregate values of all dataowners. 
 The underlying protocol used is called **Secure Aggregation** [1]. Secure aggregation works only for linear queries 
-such as mean , sum & standard deviation. 
+such as mean , sum & standard deviation.</p>
 
 1. K. A. Bonawitz Vladimir Ivanov Ben Kreuter Antonio Marcedone H. Brendan McMahan Sarvar Patel Daniel Ramage Aaron Segal Karn Seth Practical Secure Aggregation for Federated Learning on User-Held Data NIPS Workshop on Private Multi-Party Machine Learning, 2016
