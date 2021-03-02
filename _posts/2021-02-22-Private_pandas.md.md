@@ -170,7 +170,7 @@ analyst does not look at the individual values of dataowners but gets only the a
 The underlying protocol used is called **Secure Aggregation** [2]. Secure aggregation works only for linear queries 
 such as mean , sum & standard deviation.</p>
 
-##References 
+## References 
 
 1. A. Narayanan and V. Shmatikov Robust de-anonymization of large sparse datasets (how to break anonymity of the netflix prize dataset). In Proceedings of IEEE Symposium on Security and Privacy. 2008
 2. K. A. Bonawitz Vladimir Ivanov Ben Kreuter Antonio Marcedone H. Brendan McMahan Sarvar Patel Daniel Ramage Aaron Segal Karn Seth Practical Secure Aggregation for Federated Learning on User-Held Data NIPS Workshop on Private Multi-Party Machine Learning, 2016
