@@ -16,6 +16,7 @@ difficult to get and data owners can now maintain privacy of individuals in data
 <b>Repository: </b><a href="https://github.com/kamathhrishi/GreyNSights">Link</a>
 
 <br/>
+<br/>
 
 <h1> Design Principles </h1>
 <p style="text-align:justify">Some other approaches for analyzing and querying privacy sensitive datasets are uses anonymization techniques to obfusticate or remove PII's and then share the dataset. While , this seems like a promising approach. It could lead to linkage attacks. Analysts could reidentify anonymized data rows by linked it with other data sources. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>[1]. The netflix dataset was anonymized and posted publicly, yet identity of the users could be recovered by linking with IMDB publicly available data.</p>
