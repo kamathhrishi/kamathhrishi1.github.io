@@ -128,8 +128,9 @@ dataset.listen()
 
 <h2>Analyst</h2>
 
-```
+```python
 
+import pandas
 from GreyNsights.analyst import DataWorker, DataSource, Analyst, WorkerGroup
 from GreyNsights.frameworks import framework
 
