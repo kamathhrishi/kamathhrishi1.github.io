@@ -126,7 +126,7 @@ dataset = Dataset(owner, "Sample Data1", dataset, config, whitelist={"Alice": No
 dataset.listen()
 ```
 
-<h2>Analyst</h2>
+<h2>Analysis with Multiple Parties</h2>
 
 ```python
 identity = Analyst("Alice", port=65441, host="127.0.0.1")
