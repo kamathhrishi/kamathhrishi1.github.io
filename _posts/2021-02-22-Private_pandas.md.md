@@ -129,15 +129,6 @@ dataset.listen()
 <h2>Analyst</h2>
 
 ```python
-
-import pandas
-from GreyNsights.analyst import DataWorker, DataSource, Analyst, WorkerGroup
-from GreyNsights.frameworks import framework
-
-frameworks = framework()
-
-pandas = frameworks.pandas
-
 identity = Analyst("Alice", port=65441, host="127.0.0.1")
 
 # Initialize DataOwner1
