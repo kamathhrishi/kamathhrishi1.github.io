@@ -76,6 +76,19 @@ pandas = frameworks.pandas
 
 ``` 
 
+<p style="text-align:justify">Once the dataowner has hosted the dataset server for listening to requests , data analyst can request for the config by data owner
+                              to understand the level of privacy the dataowner has enforced</p>
+``` python
+config = dataset.get_config()
+print(config)
+```
+
+<p style="text-align:justify">In order to get a initialization pointer the dataowner has to approve the config</p>
+
+```python
+dataset_pt = config.approve().init_pointer()
+```
+
 Just to depict that the GreyNSights version of Pandas could be used like ordinary Pandas. The dataset is already a dataframe. 
 ```
 df = pandas.DataFrame(dataset_pt)
