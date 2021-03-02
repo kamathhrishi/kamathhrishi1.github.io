@@ -74,8 +74,8 @@ pandas = frameworks.pandas
 
 ``` 
 
-<p style="text-align:justify">Once the dataowner has hosted the dataset server for listening to requests , data analyst can request for the config by data owner
-                              to understand the level of privacy the dataowner has enforced</p>
+<p style="text-align:justify">Once the dataowner has hosted the dataset server for listening to requests , data analyst can request for the config from data owner
+                              to understand the level of privacy the dataowner has enforced.</p>
 ``` python
 config = dataset.get_config()
 print(config)
