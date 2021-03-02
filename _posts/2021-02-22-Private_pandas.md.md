@@ -104,7 +104,7 @@ df['carrots_eaten'].sum().get()
 (df['carrots_eaten']>70).sum().get()
 ```
 
-<h1> Simple Example</h1>
+<h1>Analysis Multiple Parties Datasets (Federated Analytics)</h1>
 <p style="text-align:justify">Below is an simple example where an data owner hosts a dataset on animals and carrots and the analyst queries it remotely. The example reproduces the official example of base Differential Privacy package PyDP. You can view the <a href="https://github.com/kamathhrishi/GreyNSights/tree/main/examples/carrots_demo">example</a> in the official repository.</p>
 
 <h2> Data Owner</h2>
@@ -126,7 +126,7 @@ dataset = Dataset(owner, "Sample Data1", dataset, config, whitelist={"Alice": No
 dataset.listen()
 ```
 
-<h2>Analysis with Multiple Parties</h2>
+<h2>Analysis</h2>
 
 ```python
 identity = Analyst("Alice", port=65441, host="127.0.0.1")
