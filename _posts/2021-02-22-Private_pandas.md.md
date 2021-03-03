@@ -112,7 +112,7 @@ The command displays the columns of dataset
 df.columns 
 ```
 
-<p style="text-align:justify">Executes describe remotely , which returns a pointer and gets underlying value of it when get() is called. Describe is an aggregate query so the analyst is permitted to see the result.</p>
+<p style="text-align:justify">Executes describe remotely , which returns a pointer and gets underlying value of it when get() is called. Describe is an aggregate query so the analyst is permitted to see the result. </p>
 ``` python
 df.describe().get() 
 ```
