@@ -18,6 +18,21 @@ difficult to get and data owners can now maintain privacy of individuals in data
 <h1> Design Principles </h1>
 <p style="text-align:justify">Some other approaches for analyzing and querying privacy sensitive datasets are uses anonymization techniques to obfusticate or remove PII's and then share the dataset. While , this seems like a promising approach. It could lead to linkage attacks. Analysts could reidentify anonymized data rows by linked it with other data sources. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>[1]. The netflix dataset was anonymized and posted publicly, yet identity of the users could be recovered by linking with IMDB publicly available data.</p>
 <p style="text-align:justify">Using anonymization techniques are not the best method of attaining privacy. This motivates the idea of being able to use PII's but such that the rows of PII's are not directly seen by the analyst. Further , analysts could also recover values of the individual rows using differencing attacks where they perform two queries one for the whole dataset and another excluing a given datapoint. Say one query where we calculate a sum with a given datapoint and another query without a given datapoint. Subtracting the values of both gives the value of a sensitive row. This attack is known as differencing attack. It could be mitigated by instead returning differentially private answers to queries rather than exact answers to queries. Differentially private results are query results to which well calibrated noise is added such that the result of a query is almost the same even if a given datapoint is not present. I have explained Differential Privacy in detail in my blogposts <a href="https://kamathhrishi.github.io/DPIntro/">DP Intro</a> and <a href="https://kamathhrishi.github.io/DPIntro/">DP Mechanisms</a>.</p>
+<p style="text-align:justify">The fundamental design principles of the framework are:
+
+* <b>No raw data is exposed only aggregates</b>
+
+  The analyst can query and transform the dataset however they would want to , but can only get the aggregate results back. 
+
+* <b>The aggregates or analysis does not leak any information about individual rows</b>
+
+   The aggregate results are differentially private securing data rows from differencing attacks. 
+
+* <b>Pandas capabilities to transform and process datasets is still preserved</b>
+
+  The analyst might have to add a few lines of code for initializing the setup with dataowner , but they would essentially use the same pandas syntax ensuring   
+  anybody who already knows pandas could use without having to learn anything more. 
+
 
 <h1> Simple Example</h1>
 <p style="text-align:justify">Below is an simple example where an data owner hosts a dataset on animals and carrots and the analyst queries it remotely. The example reproduces the official example of base Differential Privacy package PyDP. You can view the <a href="https://github.com/kamathhrishi/GreyNSights/tree/main/examples/carrots_demo">example</a> in the official repository.</p>
