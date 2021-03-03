@@ -31,7 +31,7 @@ difficult to get and data owners can now maintain privacy of individuals in data
 * <b>Pandas capabilities to transform and process datasets is still preserved</b>
 
   <p style="text-align:justify">The analyst might have to add a few lines of code for initializing the setup with dataowner , but they would essentially use the same pandas syntax ensuring   
-  anybody who already knows pandas could use without having to learn anything more.</p.
+  anybody who already knows pandas could use without having to learn anything more. </p.
 
 
 <h1> Simple Example</h1>
