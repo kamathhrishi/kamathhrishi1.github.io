@@ -34,9 +34,7 @@ difficult to get and data owners can now maintain privacy of individuals in data
   anybody who already knows pandas could use without having to learn anything more. </p.
 
 <h2>Pointers</h2>
-Every query executed remotely gives a pointer object to the analyst. This pointer object is a reference to the actual object that lives on the dataowner's server.
-These pointers could be transformed and used the same way , the underlying object could be used. When a operation is performed on the pointer , the transformation 
-occurs remotely on the object the pointer points to. 
+<p style="text-align:justify">Every query executed remotely gives a pointer object to the analyst. This pointer object is a reference to the actual object that lives on the dataowner's server.These pointers could be transformed and used the same way , the underlying object could be used. When a operation is performed on the pointer , the transformation occurs remotely on the object the pointer points to. The analyst could fetch the actual result of the pointer by calling get() on the pointer object. But , the actual results are retrieved only if the result is an aggregate result. The analyst is restricted from looking at rows or columns of dataset. </p>
 
 
 <h1> Simple Example</h1>
