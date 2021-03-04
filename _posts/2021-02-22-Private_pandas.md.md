@@ -33,6 +33,11 @@ difficult to get and data owners can now maintain privacy of individuals in data
   <p style="text-align:justify">The analyst might have to add a few lines of code for initializing the setup with dataowner , but they would essentially use the same pandas syntax ensuring   
   anybody who already knows pandas could use without having to learn anything more. </p.
 
+<h2>Pointers</h2>
+Every query executed remotely gives a pointer object to the analyst. This pointer object is a reference to the actual object that lives on the dataowner's server.
+These pointers could be transformed and used the same way , the underlying object could be used. When a operation is performed on the pointer , the transformation 
+occurs remotely on the object the pointer points to. 
+
 
 <h1> Simple Example</h1>
 <p style="text-align:justify">Below is an simple example where an data owner hosts a dataset on animals and carrots and the analyst queries it remotely. The example reproduces the official example of base Differential Privacy package PyDP. You can view the <a href="https://github.com/kamathhrishi/GreyNSights/tree/main/examples/carrots_demo">example</a> in the official repository.</p>
