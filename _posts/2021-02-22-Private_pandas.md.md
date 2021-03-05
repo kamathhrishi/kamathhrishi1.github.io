@@ -181,7 +181,7 @@ dataset3 = DataSource(identity, worker3, "Sample Data3")
 config3 = dataset3.get_config()
 dataset3 = config3.approve().init_pointer()
 
-# Create a workergroup to which commands to all workers are executed together
+# Create a workergroup to which commands to all dataowners are executed together
 group = WorkerGroup(identity)
 group.add(dataset1, worker1, config1)
 group.add(dataset2, worker2, config2)
@@ -196,7 +196,7 @@ er = pt["Money spent (euros)"].sum().get()
 
 print(er)
 ```
-<p style="text-align:justify">When get() is called on the workergroup pointer , Workers communicate with each other and create shares. 
+<p style="text-align:justify">When get() is called on the workergroup pointer , dataowner communicate with each other and create shares. 
 These exchanged shares are added by the analyst to obtain the summation of shares. This ensures that the 
 analyst does not look at the individual values of dataowners but gets only the aggregate values of all dataowners. 
 The underlying protocol used is called <b>Secure Aggregation</b> [2]. Secure aggregation works only for linear queries 
