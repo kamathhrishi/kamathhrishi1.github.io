@@ -137,7 +137,7 @@ df['carrots_eaten'].sum().get()
 <br/>
 
 <h1>Analyze Multiple Parties Datasets (Federated Analytics)</h1>
-<p style="text-align:justify">Below is an simple example where an data owner hosts a dataset on animals and carrots and the analyst queries it remotely. The example reproduces the official example of base Differential Privacy package PyDP. You can view the <a href="https://github.com/kamathhrishi/GreyNSights/tree/main/examples/carrots_demo">example</a> in the official repository.</p>
+<p style="text-align:justify">We can query multiple datasets as a single dataset , ensuring that the analyst is exposed only to aggregate values. but , the individual parties values are not exposed to the analyst. The method known as Federated Analyticals. Currently the framework supports only counts , approximate standard deviation, mean and sum. </p>
 
 <h2> Data Owner</h2>
 The code for launching data owner server. Similarly , host several dataowners with different ports and dataset names.
