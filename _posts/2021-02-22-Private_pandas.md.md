@@ -4,8 +4,8 @@ layout: posts
 mathjax: "true"
 ---
 
-<p style="text-align:justify">Conventionally pandas allows you to analyze datasets that are present locally on your PC , that is when you are given access to a given dataset. 
-But , there are valuable and informative datasets that consists of Personally Identifiable Information (PII) that you wont be able access to directly query it. There are privacy compliances that prevent data from being moved in some industries such as Banking and Healthcare. 
+<p style="text-align:justify">Conventionally pandas allows you to analyze datasets that are present locally on your PC, that is when you are given access to a given dataset. 
+But, there are valuable and informative datasets that consists of Personally Identifiable Information (PII) that you wont be able access to directly query it. There are privacy compliances that prevent data from being moved in some industries such as Banking and Healthcare. 
 With the use of framework GreyNSights you can leverage pandas to analyze and transform datasets that are sensitive. GreyNSights is stricly based on 
 client-server implementation. The data owner hosts the dataset which begins a server that listens in to requests. The data analyst connects to the dataowner 
 using client scripts of GreyNSights and can interactively query the dataset remotely. With GreyNSights the data owner doesn't have to move the dataset out of their premises and analyst can still analyze the dataset. So its a win-win situation for both. Analyst can now get access to datasets that are otherwise 
@@ -16,13 +16,13 @@ difficult to get and data owners can now maintain privacy of individuals in data
 
 
 <h1> Design Principles </h1>
-<p style="text-align:justify">Some other approaches for analyzing and querying privacy sensitive datasets uses anonymization techniques to obfusticate or remove PII's and then share the dataset. While , this seems like a promising approach. It could lead to linkage attacks. Analysts could reidentify anonymized data rows by linking it with other data sources. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>[1]. The netflix dataset was anonymized and posted publicly, yet identity of the users could be recovered by linking with publicly available IMDB dataset.</p>
-<p style="text-align:justify">Using anonymization techniques are not the best method of attaining privacy. This motivates the idea of being able to use PII's but such that the rows of PII's are not directly seen by the analyst. Further , when the rows are restricted for viewing analysts could also recover values of the individual rows using differencing attacks where they perform two queries one for the whole dataset and another excluding a given datapoint. Say one query where we calculate a sum with a given datapoint and another query without a given datapoint. Subtracting the values of both gives the value of a sensitive row. This attack is known as differencing attack. It could be mitigated by instead returning differentially private answers to queries rather than exact answers to queries. Differentially private results are query results to which well calibrated noise is added such that the result of a query is almost the same even if a given datapoint is not present. I have explained Differential Privacy in detail in my blogposts <a href="https://kamathhrishi.github.io/DPIntro/">DP Intro</a> and <a href="https://kamathhrishi.github.io/DPIntro/">DP Mechanisms</a>.</p>
+<p style="text-align:justify">Some other approaches for analyzing and querying privacy sensitive datasets uses anonymization techniques to obfusticate or remove PII's and then share the dataset. While, this seems like a promising approach. It could lead to linkage attacks. Analysts could reidentify anonymized data rows by linking it with other data sources. One such popular attack is the <a href="https://arxiv.org/abs/cs/0610105">Netflix attack</a>[1]. The netflix dataset was anonymized and posted publicly, yet identity of the users could be recovered by linking with publicly available IMDB dataset.</p>
+<p style="text-align:justify">Using anonymization techniques are not the best method of attaining privacy. This motivates the idea of being able to use PII's but such that the rows of PII's are not directly seen by the analyst. Further, when the rows are restricted for viewing analysts could also recover values of the individual rows using differencing attacks where they perform two queries one for the whole dataset and another excluding a given datapoint. Say one query where we calculate a sum with a given datapoint and another query without a given datapoint. Subtracting the values of both gives the value of a sensitive row. This attack is known as differencing attack. It could be mitigated by instead returning differentially private answers to queries rather than exact answers to queries. Differentially private results are query results to which well calibrated noise is added such that the result of a query is almost the same even if a given datapoint is not present. I have explained Differential Privacy in detail in my blogposts <a href="https://kamathhrishi.github.io/DPIntro/">DP Intro</a> and <a href="https://kamathhrishi.github.io/DPIntro/">DP Mechanisms</a>.</p>
 <p style="text-align:justify">The fundamental design principles of the framework are:</p>
 
 * <b>No raw data is exposed only aggregates</b>
 
-  <p style="text-align:justify">The analyst can query and transform the dataset however they would want to , but can only get the aggregate results back.</p>
+  <p style="text-align:justify">The analyst can query and transform the dataset however they would want to, but can only get the aggregate results back.</p>
 
 * <b>The aggregates or analysis does not leak any information about individual rows</b>
 
@@ -30,11 +30,11 @@ difficult to get and data owners can now maintain privacy of individuals in data
 
 * <b>Pandas capabilities to transform and process datasets is still preserved</b>
 
-  <p style="text-align:justify">The analyst might have to add a few lines of code for initializing the setup with dataowner , but they would essentially use the same pandas syntax ensuring   
+  <p style="text-align:justify">The analyst might have to add a few lines of code for initializing the setup with dataowner, but they would essentially use the same pandas syntax ensuring   
   anybody who already knows pandas could use without having to learn anything more. </p.
 
 <h2>Pointers</h2>
-<p style="text-align:justify">Every query executed remotely gives a pointer object to the analyst. This pointer object is a reference to the actual object that lives on the dataowner's server.These pointers could be transformed and used the same way , the underlying object could be used. When a operation is performed on the pointer , the transformation occurs remotely on the object the pointer points to. The analyst could fetch the actual result of the pointer by calling get() on the pointer object. But , the actual results are retrieved only if the result is an aggregate result. The analyst is restricted from looking at rows or columns of dataset. </p>
+<p style="text-align:justify">Every query executed remotely gives a pointer object to the analyst. This pointer object is a reference to the actual object that lives on the dataowner's server.These pointers could be transformed and used the same way, the underlying object could be used. When a operation is performed on the pointer, the transformation occurs remotely on the object the pointer points to. The analyst could fetch the actual result of the pointer by calling get() on the pointer object. But, the actual results are retrieved only if the result is an aggregate result. The analyst is restricted from looking at rows or columns of dataset. </p>
 
 
 <h1> Simple Example</h1>
@@ -115,12 +115,12 @@ The command displays the columns of dataset
 df.columns 
 ```
 
-<p style="text-align:justify">Executes describe remotely , which returns a pointer and gets underlying value of it when get() is called. Describe is an aggregate query so the analyst is permitted to see the result. </p>
+<p style="text-align:justify">Executes describe remotely, which returns a pointer and gets underlying value of it when get() is called. Describe is an aggregate query so the analyst is permitted to see the result. </p>
 ``` python
 df.describe().get() 
 ```
 
-Calculates mean , standard deviation and sum. 
+Calculates mean, standard deviation and sum. 
 ``` python
 df['carrots_eaten'].mean().get() 
 ```
@@ -196,11 +196,11 @@ er = pt["Money spent (euros)"].sum().get()
 
 print(er)
 ```
-<p style="text-align:justify">When get() is called on the workergroup pointer , dataowner communicate with each other and create shares. 
+<p style="text-align:justify">When get() is called on the workergroup pointer, dataowner communicate with each other and create shares. 
 These exchanged shares are added by the analyst to obtain the summation of shares. This ensures that the 
 analyst does not look at the individual values of dataowners but gets only the aggregate values of all dataowners. 
 The underlying protocol used is called <b>Secure Aggregation</b> [2]. Secure aggregation works only for linear queries 
-such as mean , sum & standard deviation.</p>
+such as mean, sum & standard deviation.</p>
 
 ## References 
 
