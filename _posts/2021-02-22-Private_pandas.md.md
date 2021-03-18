@@ -137,10 +137,10 @@ df['carrots_eaten'].sum().get()
 <br/>
 
 <h1>Analyze Multiple Parties Datasets (Federated Analytics)</h1>
-<p style="text-align:justify">We can query multiple datasets as a single dataset , ensuring that the analyst is exposed only to aggregate values. But , the individual parties values are not exposed to the analyst. The method known as Federated Analyticals. Currently the framework supports only counts , approximate standard deviation, mean and sum. </p>
+<p style="text-align:justify">We can query multiple datasets as a single dataset, ensuring that the analyst is exposed only to aggregate values. But, the individual parties values are not exposed to the analyst. The method known as Federated Analyticals. Currently the framework supports only counts , approximate standard deviation, mean and sum. </p>
 
 <h2> Data Owner</h2>
-The code for launching data owner server. Similarly , host several dataowners with different ports and dataset names.
+The code for launching data owner server. Similarly, host several dataowners with different ports and dataset names.
 
 ``` python
 import pandas
