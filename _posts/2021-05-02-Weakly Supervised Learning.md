@@ -10,9 +10,10 @@ data labellers labelling every image for a given task. Some tasks are expensive 
 annotate. </p>
 <p style="text-align:justify">
 Weakly supervised learning allows us to use the datasets which are easy to annotate to perform tasks that are more expensive to annotate. It could use another classifier to label the data or handcrafted domain knowledge. 
-For , example from a dataset consisting of labelled pairs of image/label pairs  is good for a classification task we could curate a dataset for object localisation and semantic segmentation and train a model for the same. Another example extending to text for sentimental analysis.
+For, example from a dataset consisting of labelled pairs of image/label pairs  is good for a classification task we could curate a dataset for object localisation and semantic segmentation and train a model for the same. Another example extending to text for sentimental analysis.
 We could take several rows of text and use if else statements to check if words that correspond to negative/positive sentiment are present and label the dataset accordingly. 
-This leads to a dataset with noisy labels with which can learn a sentimental classifier. The intuition why this works is that most noisy labels have some learnable patterns. 
+This leads to a dataset with noisy labels with 
+  which can learn a sentimental classifier. The intuition why this works is that most noisy labels have some learnable patterns. 
 We must also ensure that the algorithm does not overfit to the noisy patterns. This can be done by curating a small dataset with correct labels which can be used as test set. 
 </p> 
 
@@ -43,9 +44,9 @@ images with bounding boxes are more expensive as compared to anotating a single 
 
 <p style="text-align:justify">I would explain these individual components in some detail
 
-<p style="text-align:justify"><b>Region selection</b> is done using selective max , sliding windows or edgebox. These regions are labelled by an classifier trained on classification task on classes contained in the image.
-  The classifier is leveraged to <b>label the regions</b>. From the labelled regions the , the appropriate regions are selected for a given class. There are several stratergies to do so 1) choosing the region with maximum probability for given class 2) Choosing regions above certain probability. When approach 2 is choosen the regions can further be combined using some criteria such as intersection or distance between the regions. The dataset is further labelled. This labelled dataset is used to <b>train a localization network</b> learns to predict bounding boxes given an image. After the network is trained to convergence the <b>dataset is relabelled</b> using labels from localized network. This process is repeated for several iterations until convergence criteria is met. </p>
+<p style="text-align:justify"><b>Region selection</b> is done using selective max, sliding windows or edgebox. These regions are labelled by an classifier trained on classification task on classes contained in the image.
+  The classifier is leveraged to <b>label the regions</b>. From the labelled regions the appropriate regions are selected for a given class. There are several stratergies to do so 1) choosing the region with maximum probability for given class 2) Choosing regions above certain probability. When approach 2 is choosen the regions can further be combined using some criteria such as intersection or distance between the regions. The dataset is further labelled. This labelled dataset is used to <b>train a localization network</b> learns to predict bounding boxes given an image. After the network is trained to convergence the <b>dataset is relabelled</b> using labels from localized network. This process is repeated for several iterations until convergence criteria is met. </p>
 
-<p style="text-align:justify">The above motivates an naive approach of attaining weakly supervised learning , there are some approaches that perform steps 2-5 end to end which I will save for another blogpost. The end to end networks are trained only from classification labels but can also perform localization and detection. </p>
+<p style="text-align:justify">The above motivates an naive approach of attaining weakly supervised learning, there are some approaches that perform steps 2-5 end to end which I will save for another blogpost. The end to end networks are trained only from classification labels but can also perform localization and detection. </p>
 
-<p style="text-align:justify">Having motivated weakly supervised learning as a way of labelling data with less difficulty , its still far from use in production system to completely replace supervised learning and still an active research area. Some common issues being that it labels all closeby objects into a single boundig box or is biased towards the noise by the classifier.</p>
+<p style="text-align:justify">Having motivated weakly supervised learning as a way of labelling data with less difficulty, its still far from use in production system to completely replace supervised learning and still an active research area. Some common issues being that it labels all closeby objects into a single boundig box or is biased towards the noise by the classifier.</p>
