@@ -5,23 +5,23 @@ mathjax: "true"
 summary:  "Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. Manually reannotating not only helps remove incorrect labels but also helps understand biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier."
 ---
 
-<p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful , powerful enough that they could be trained to memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to learn from input/output pairs for tasks end to end without much preprocessing effort giving the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
+<p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful, powerful enough that they could be trained to memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to learn from input/output pairs for tasks end to end without much preprocessing effort giving the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
 <center>
 <img height="400px" width="600px" src="https://i.stack.imgur.com/bN2iA.png">
 <p>The above image depicts how an neural network transforms an image into set of features upon training.</p>
 </center>
-<p style="text-align:justify">Deep Learning isn't magic , it still needs some correlated patterns to learn required features and generalize to unseen data. This requires the deep learning practitioner to understand the training dataset. As the common machine learning phrase goes <i>"Your algorithm is good as your data"</i>. Deep learning models help extract features relevant to given dataset, provided there are enough examples that expose right features.
+<p style="text-align:justify">Deep Learning isn't magic, it still needs some correlated patterns to learn required features and generalize to unseen data. This requires the deep learning practitioner to understand the training dataset. As the common machine learning phrase goes <i>"Your algorithm is good as your data"</i>. Deep learning models help extract features relevant to given dataset, provided there are enough examples that expose right features.
  <b>Manual re-annotation</b> is the process of going through every image/text of the dataset and understanding what features exactly define a given class. 
  Manually reannotating a dataset not only helps <b>remove incorrect labels</b> but also <b>understand biases</b> the algorithm could pick up on or even <b>understand neural network predictions</b> to an certain extent. While its true neural networks are still blackboxes or less interpretable but on a high level there are still ways to understand what they learned from the dataset. Further manual re-annotation also helps decide <b>data augmentation stratergy</b> that could help the model generalize or provides cues on what additional data could help.</p>
-<p><b>Note: </b>Manual re-annotation is not a standard term , just a term I introduced to make my idea clear</p>
+<p><b>Note: </b>Manual re-annotation is not a standard term, just a term I introduced to make my idea clear</p>
  
 <center>
 
 <img height="400px" width="600px" src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/allIndoors.jpg?raw=true">
 </center>
-<p style="text-align:justify">I would like to take an example of manually re-annotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>. In this post I took an example of Computer Vision task , you can similarly analyze text/speech datasets or environments in Reinforcement Learning.</p>
+<p style="text-align:justify">I would like to take an example of manually re-annotating a dataset for a computer vision classification task <b>Indoor Scene Recognition</b>. The dataset consists of around only 5000 images of 67 different classes <a href="#ref2">[2]</a>. In this post I took an example of Computer Vision task, you can similarly analyze text/speech datasets or environments in Reinforcement Learning.</p>
   
-<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , cups with drink , bottles , low lit eenvironments , bar counters , people and some food. Ofcourse not just these individual attributes but in the context of them occuring toghether. Depending on the label, all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
+<p style="text-align:justify">Let us annotate the class bar. Think of what features could possibly define bar: high chairs , cups with drink , bottles , low lit eenvironments, bar counters, people and some food. Ofcourse not just these individual attributes but in the context of them occuring toghether. Depending on the label, all or some features could exist for the image to satisfy requirement of the label. Let us look at a few sample images which are labelled as bar in the scene recognition dataset and decide how to eliminate or keep them based on the features we would want to define a bar.</p>
 <div>
  
 <p float="center">
@@ -29,7 +29,7 @@ summary:  "Manual reannotation is the process of you going through image/text of
 </p>
 
 <p style="text-align:justify">
-The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image ,such as ones with a bartender , people taking a drink and different shades of furnitures. 
+The first image meets our definition of a bar : high chairs [check], drinks [check] and bar counter[check]. Although to be able to generalize these features you would need several different variations of the image,such as ones with a bartender, people taking a drink and different shades of furnitures. 
 <p float="center">
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/bar_0439.jpg?raw=true" width="200" height="150"/> 
 </p>
@@ -48,14 +48,14 @@ The third image also looks more like a Deli or fancy bakery counter.
 <p float="center">
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/bar_0310.jpg?raw=true" width="200" height="150"/>
 </p>
-<p style="text-align:justify">The fourth and fifth image strengthens the features in first image and so does the fifth image making them appropriate training images. They contain high chairs , bottles , bar counters and even people.</p>
+<p style="text-align:justify">The fourth and fifth image strengthens the features in first image and so does the fifth image making them appropriate training images. They contain high chairs, bottles, bar counters and even people.</p>
 <p float="center">
  <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/bar_0080.jpg?raw=true" width="200" height="150" />
 </p>
 
 <p style="text-align:justify"> The last image could be bar but could possibly be in the category of gameroom or bowling.
-The only strong signal being the high chair , the images of bottles are too small to be learnt.</p>
-<p style="text-align:justify">While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But , there are possible features that the algorithm picks on that are not visually clear. The quality of features learnt depends on the amount of images supporting the features. But with enough variations of images with supporting features it makes them less likely to overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
+The only strong signal being the high chair, the images of bottles are too small to be learnt.</p>
+<p style="text-align:justify">While annotating the images you would notice that only if you can clearly identify why the image belongs to the category you could plausibly expect the algorithm to learn the required features. But, there are possible features that the algorithm picks on that are not visually clear. The quality of features learnt depends on the amount of images supporting the features. But with enough variations of images with supporting features it makes them less likely to overfit to other aspects of the image which will be further discussed. Below are some  things I noticed when reannotating the dataset. 
 </p> 
 
 
@@ -86,7 +86,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 
 <div>
 <center>
-<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images , the first image is labelled as a train station but has features that make it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish , lightning and shops akin to a mall but is labelled as staircase.</p>
+<p style="text-align:justify">Some images do have certain attributes that are labelled as a single class but could possibly attributed to several classes. In the above images, the first image is labelled as a train station but has features that make it suitable for being a part of mall or church. The second has a roof and clock that make it seem more like a trainstation but belongs to staircase class. The third has the finish, lightning and shops akin to a mall but is labelled as staircase.</p>
 <h2>Relating Inference Results</h2>
 
 <p style="text-align:justify">Some observations I made after I trained a Alexnet model<a href="#ref3">[3]</a> on the dataset. The inference was stricly performed on the test data.</p>
@@ -117,7 +117,7 @@ The only strong signal being the high chair , the images of bottles are too smal
 <center>
 <h2>The End</h2>
 
-<p style="text-align:justify">I first read about this in Andrej Karpathy's <a href="http://karpathy.github.io/2014/09/02/what-i-learned-from-competing-against-a-convnet-on-imagenet/">blogpost</a> on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice. Understanding your data is definitely  important but it is also important to have a powerful model architecture and practices to be able to learn from the data. Ideally learning the right features require several different images with variations , which could be possible by gathering more data or by augmentations. Visualizing your dataset would give an first insight as to what your neural network could have possibly learnt. In order to further understand what your network has learnt, you could use various methods developed for the same such as occulsion experiments or deepdream.</p>  
+<p style="text-align:justify">I first read about this in Andrej Karpathy's <a href="http://karpathy.github.io/2014/09/02/what-i-learned-from-competing-against-a-convnet-on-imagenet/">blogpost</a> on his analysis on ImageNet and thought it was a simple but powerful technique for putting deep learning into practice. Understanding your data is definitely  important but it is also important to have a powerful model architecture and practices to be able to learn from the data. Ideally learning the right features require several different images with variations, which could be possible by gathering more data or by augmentations. Visualizing your dataset would give an first insight as to what your neural network could have possibly learnt. In order to further understand what your network has learnt, you could use various methods developed for the same such as occulsion experiments or deepdream.</p>  
 
 <p style="text-align:justify">I would like to thank my friend Kavin Kumar for reviewing and helping me improve this article</p>
 
