@@ -64,7 +64,7 @@ Complex models usually have lot more parameters and require more hardware infras
 With significant emphasis of data, most effort is into working on allowing companies to store, manage and clean larger datasets. </p>
 
 <center>
-## Data Centeric ML
+## What is a better approach? 
 </center>
 <p style="text-align:justify">
 It's not a dichotomy. They are both beneficial and used at some proportions in the industry. Data centric ML is beneficial on a short term. While, Model centric ML is much more beneficial on a long term. 
