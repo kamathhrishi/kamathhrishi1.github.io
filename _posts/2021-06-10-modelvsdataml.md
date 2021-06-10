@@ -7,10 +7,10 @@ mathjax: "true"
 ## Introduction 
 <p style="text-align:justify">
 In this blogpost I will be explaining the difference between Model centric and data centric Machine Learning. 
-Here I mean Machine Learning as a branch of AI which uses input data and corresponding output labels to learn to automatically perform some task. 
-So it would include conventional ML methods and Deep Learning. In machine learning in general we have a dataset and a model with its associated parameters. 
-A model which gives relationship between input and output pairs. This model could also provide predictions for datapoint not seen in the training set. 
-This blogpost aims to address a question: If I have a certain accuracy with a given model and given dataset on a task. Do I get more data (data centric) or do I spend time improving the model (model centric) ? 
+Here I mean Machine Learning as a branch of AI which learns to perform tasks by learning a model from a dataset. 
+So it would include conventional ML methods and Deep Learning. In machine learning we have a dataset and a model with its associated parameters. 
+A model which gives relationship between input and output pairs. This model could also provide predictions for datapoints not seen in the training set. 
+This blogpost aims to address a question: If I have a certain accuracy with a given model and given dataset on a task. Do I get more data (data centric) or do I improve the model (model centric) in order to improve the accuracy? 
 Model centric approach refers to almost all practices to improve a ML model performance that don’t involve gathering a larger dataset or using any external dataset, keeping the dataset fixed. 
 While data centric approach refers to improving model performance by incorporating better datasets. Performance here strictly refers to “accuracy” of a given model on unseen data.</p>
 
