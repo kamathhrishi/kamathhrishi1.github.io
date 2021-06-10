@@ -37,6 +37,11 @@ Model centric ML is the practice of keeping data constant and changing the ML co
 Before I explain model centric AI, I would like to mention model I don’t just mean the mathematical model(neural network, SVM, logistic regression,etc) but I will also refer to other practices with respect to model that make it easier to learn. 
 Such as hyper parameters, loss function, training practices, representations and augmentations. Generating Synthetic dataset, augmentations and learning representations count as model centric ML. Lets simply redefine model as “ML code” (It could simply mean a Pytorch or Tensorflow code) that runs on a fixed input dataset. 
 It's an approach that is a lot longer. It requires deep expertise and understanding of practitioner of ML models and the given problem. Model centric ML is more of a research approach. 
+
+<center>
+<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/Imagenet_benchmarks.png?raw=true"></img>
+</center>
+   
 To get an idea of pace of improvement you can have a look at Imagenet benchmarks over the years. Imagenet is a competition where people train models on a large fixed dataset of images of 1000 different categories and report their accuracies and methods. 
 Imagenet is a very model centric competition. That is contestants are not allowed to use external datasets. But, must solely increase accuracies by improving their model. You can see over the years that the improvements of accuracies are very slow.
 Almost all the contestants have used their prior knowledge of the dataset or of the neural network itself to improve performance.
@@ -63,6 +68,9 @@ Having described model centric and data centric, I will give an example that uni
 Until, 1999 MLPs where the way to go about training models for image classification tasks. Until, Yann Lecunn came up with CNN’s. It improved the accuracy of MNIST by a few %. MLP’s could do fine with a simple dataset with MNIST. 
 CNN’s had encoded a prior that features that existed in an image could be anywhere in the image and not any specific location, a property called translation invariance.Earlier MLP’s required every possible location of feature requiring it to be trained on a lot more data.</p>
 
+<center>
+<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/Screenshot%202021-06-10%20at%203.37.44%20PM.png?raw=true"></img>
+</center>
 <p style="text-align:justify">
 A CNN trained on the first image could generalise to other two images. But, an MLP would have to be trained on all the three images and a combination of other positions. 
 CNN’s dint just help improve accuracy of ML algorithms on Computer vision tasks, but also reduced the compute and number of parameters required, making it more scalable to train models for various CV tasks.
