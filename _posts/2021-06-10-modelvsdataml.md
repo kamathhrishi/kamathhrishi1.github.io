@@ -16,9 +16,9 @@ While data centric approach refers to improving model performance by incorporati
 
 ## Priors and Data
 <p style="text-align:justify">
-In order to make my points further clear. I would want to explain how priors and data shape models in machine learning. 
-In order for a model to learn a phenomenon we train a very complex model such as neural networks with lots of data or train a simple model that captures the relationship between input and output variables well.
-Say a logistic regression or Linear Regression model on close to linear data. In Second case, the model works well if the relationship between the input and target variables are linear. 
+In order to get a better understanding of foundations between the two approaches, I would want to explain how priors and data shape models in machine learning. 
+It is a standard practice to train a very complex model such as neural networks with lots of data or train an appropriate model with right assumptions that captures the relationship between input and output variables well.
+An example of second approach could be a logistic regression or Linear Regression model on close to linear data. In Second case, the model works well if the relationship between the input and target variables are linear. 
 Even if its not linear, it is upto the ML Practitioner to design features that are linearly correlated. 
 The second case requires very less data because the model structure is capturing the relationship of the data or the ML practitioner is using their understanding of the problem to design relevant features. 
 Both of these involve some kind of prior knowledge of the dataset.
