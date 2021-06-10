@@ -83,6 +83,5 @@ A CNN trained on the first image could generalise to other two images. But, an M
 CNN’s dint just help improve accuracy of ML algorithms on Computer vision tasks, but also reduced the compute and number of parameters required, making it more scalable to train models for various CV tasks.
 This is an example of how Model centric AI could reduce the effort of Data centric ML.  
 </p>
-</center> 
 
 
