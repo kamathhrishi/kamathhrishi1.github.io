@@ -3,9 +3,10 @@ title:  "Model Centric vs Data Centric ML [WIP]"
 layout: posts
 mathjax: "true"
 ---
-<center>
+
+
 ## Introduction 
-</center>
+   
 <p style="text-align:justify">
 In this blogpost I will be explaining the difference between Model centric and data centric Machine Learning. 
 Here I mean Machine Learning as a branch of AI which learns to perform tasks by learning a model from a dataset. 
@@ -16,9 +17,7 @@ Model centric approach refers to almost all practices to improve a ML model perf
 While data centric approach refers to improving model performance by incorporating better datasets. Performance here strictly refers to “accuracy” of a given model on unseen data.</p>
 
 ## Priors and Data
-</center>
 <p style="text-align:justify">
-<center>  
 In order to get a better understanding of foundations between the two approaches, I would want to explain how priors and data shape models in machine learning. 
 It is a standard practice to train a very complex model such as neural networks with lots of data or train an appropriate model with right assumptions that captures the relationship between input and output variables well.
 An example of second approach could be a logistic regression or Linear Regression model on close to linear data. In Second case, the model works well if the relationship between the input and target variables are linear. 
@@ -34,15 +33,16 @@ But, then there are so many possible combinations of these attributes which can 
 Another way to solve the same problem is to gather images of 1000’s of wheels and have a complex model learn from it. 
 </p>
 
-<center>
+
 ## Model Centeric ML
-</center>
+
 <p style="text-align:justify">
 Model centric ML is the practice of keeping data constant and changing the ML code to improve performance of the model.
 Before I explain model centric AI, I would like to mention model I don’t just mean the mathematical model(neural network, SVM, logistic regression,etc) but I will also refer to other practices with respect to model that make it easier to learn. 
 Such as hyper parameters, loss function, training practices, representations and augmentations. Generating Synthetic dataset, augmentations and learning representations count as model centric ML. Lets simply redefine model as “ML code” (It could simply mean a Pytorch or Tensorflow code) that runs on a fixed input dataset. 
 It's an approach that is a lot longer. It requires deep expertise and understanding of practitioner of ML models and the given problem. Model centric ML is more of a research approach. 
 
+   
 <center>
 <img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/Imagenet_benchmarks.png?raw=true">
 </center>
@@ -54,18 +54,16 @@ So it incorporates prior knowledge of some or the other kind.
 Model centric ML is mostly practiced in academic research and competitions. To some extent in industry, but not primarily. 
 </p>
 
-<center>
 ## Data Centeric ML
-<center>
 <p style="text-align:justify">
 Data centric ML is the practice of keeping model code constant and augmenting dataset to improve performance of the model. Like I mention in the priors vs data section, complex models learn better with larger data.  
 Data centric approach is a lot easier and faster as compared to model centric ML. But, is expensive. It requires gathering large amounts of data. Maybe even effort into annotating them. Further, requires more infrastructure for storing and managing dataset.
 Complex models usually have lot more parameters and require more hardware infrastructure for training the models. It is a common for industries to primarily focus on data centric ML as opposed to model centric ML. 
 With significant emphasis of data, most effort is into working on allowing companies to store, manage and clean larger datasets. </p>
 
-<center>
+   
+
 ## What is a better approach? 
-</center>
 <p style="text-align:justify">
 It's not a dichotomy. They are both beneficial and used at some proportions in the industry. Data centric ML is beneficial on a short term. While, Model centric ML is much more beneficial on a long term. 
 In cases, where there isn’t enough data or infrastructure to train or get more data model centric ML becomes the way to do. 
@@ -85,5 +83,6 @@ A CNN trained on the first image could generalise to other two images. But, an M
 CNN’s dint just help improve accuracy of ML algorithms on Computer vision tasks, but also reduced the compute and number of parameters required, making it more scalable to train models for various CV tasks.
 This is an example of how Model centric AI could reduce the effort of Data centric ML.  
 </p>
+</center> 
 
 
