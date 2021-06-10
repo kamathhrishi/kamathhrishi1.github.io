@@ -69,7 +69,7 @@ Until, 1999 MLPs where the way to go about training models for image classificat
 CNN’s had encoded a prior that features that existed in an image could be anywhere in the image and not any specific location, a property called translation invariance.Earlier MLP’s required every possible location of feature requiring it to be trained on a lot more data.</p>
 
 <center>
-<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/Screenshot%202021-06-10%20at%203.37.44%20PM.png?raw=true"></img>
+<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/Screenshot%202021-06-10%20at%203.37.44%20PM.png?raw=true">
 </center>
 <p style="text-align:justify">
 A CNN trained on the first image could generalise to other two images. But, an MLP would have to be trained on all the three images and a combination of other positions. 
