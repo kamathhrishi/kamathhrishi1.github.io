@@ -39,7 +39,7 @@ Such as hyper parameters, loss function, training practices, representations and
 It's an approach that is a lot longer. It requires deep expertise and understanding of practitioner of ML models and the given problem. Model centric ML is more of a research approach. 
 
 <center>
-<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/Imagenet_benchmarks.png?raw=true"></img>
+<img src="https://github.com/kamathhrishi/kamathhrishi.github.io/blob/master/_posts/Images/Imagenet_benchmarks.png?raw=true">
 </center>
    
 To get an idea of pace of improvement you can have a look at Imagenet benchmarks over the years. Imagenet is a competition where people train models on a large fixed dataset of images of 1000 different categories and report their accuracies and methods. 
