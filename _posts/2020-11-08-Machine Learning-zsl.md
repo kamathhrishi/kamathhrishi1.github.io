@@ -1,6 +1,7 @@
 ---
 title:  "Machine Learning-Learning to predict classes not seen during training"
 layout: posts
+published: false
 ---
 
 <p style="text-align:justify">In conventional machine learning we train an algorithm on input/output pairs (Supervised learning) or only on raw data(Unsupervised learning) and make predictions using trained model. But, can we possible train an algoritm to make the right predictions on classes of data it's never seen before?
