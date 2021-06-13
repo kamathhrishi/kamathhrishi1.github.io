@@ -3,6 +3,7 @@ title:  "Deep Learning in Practice-Be The algorithm"
 layout: posts
 mathjax: "true"
 summary:  "Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. Manually reannotating not only helps remove incorrect labels but also helps understand biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier."
+published: false
 ---
 
 <p style="text-align:justify">Conventional machine learning required the practitioner to manually look at images/text and handcraft appropriate features. Deep Learning models are powerful, powerful enough that they could be trained to memorize random data without any real correlations <a href="#ref1">[1]</a>. This allows us to learn from input/output pairs for tasks end to end without much preprocessing effort giving the flexibility to learn features from raw images/text but at the expense of a lot of data.</p>
