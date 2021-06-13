@@ -1,6 +1,7 @@
 ---
 title:  "Introduction to Weakly Supervised Learning"
 layout: posts
+published: false
 ---
 
 <p style="text-align:justify">Supervised Machine Learning relies on labelled data that consists of data and pairs of expected outputs. For example an image of dog that is labelled a dog.
